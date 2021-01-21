@@ -1,0 +1,13 @@
+{
+  "login_pg": {
+    "textBox_userId":	"input#userId",
+    "button_continue":	"#continueButtonMain",
+    "checkbox_sitePhrase":	"input#sitePhrase",
+    "textBox_password":	"input#password",
+    "textBox_token":"input#tokenCode",
+    "button_logon":		"button#logOnButton",
+    "button_duplicate":	"button#continueButton"
+  }
+
+
+}

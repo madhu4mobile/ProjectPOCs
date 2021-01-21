@@ -1,0 +1,25 @@
+<testsuite failures="1" name="src/test/java/auto_UI_CustApp/cust_Portal_Login.feature" skipped="0" tests="1" time="2.333316">
+  <testcase classname="src.test.java.auto_UI_CustApp.cust_Portal_Login" name="CustApp loginPage" time="2.333316">
+    <failure message="-unknown-:10 - evaluation (js) failed: portalJpmalogonPg.txtBox_userId, javax.script.ScriptException: ReferenceError: &quot;portalJpmalogonPg&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)">* def loginLocators = read('auto_UI_CustApp/projOR/loginPg_locators.json') . passed
+* print 'test1 :',loginLocators.test1 ..................................... passed
+* print 'loginLocators.portalJpmalogonPg.test1 :',loginLocators.portalJpmalogonPg.test1 . passed
+* print 'test2 :',loginLocators.portalJpmalogonPg.test2 ................... passed
+* print 'leftNav.test2 :',leftNav.test2 ................................... passed
+* def myUserIdBox = portalJpmalogonPg.txtBox_userId ....................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:10 - evaluation (js) failed: portalJpmalogonPg.txtBox_userId, javax.script.ScriptException: ReferenceError: "portalJpmalogonPg" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)&#13;
+	at ✽.* def myUserIdBox = portalJpmalogonPg.txtBox_userId (-unknown-:10)&#13;
+
+* print 'portalJpmalogonPg.txtBox_userId :',myUserIdBox ................... skipped
+* print 'leftNav.transactions :',leftNav.transactions ..................... skipped
+Given driver 'https://access.jpmorgan.com/jpmalogon' ...................... skipped
+When waitForUrl('https://access.jpmorgan.com/jpmalogon') .................. skipped
+And maximize() ............................................................ skipped
+And retry().input(myUserIdBox, 'autochecks1') ............................. skipped
+And retry().click(portalJpmalogonPg.button_continue) ...................... skipped
+And retry().click(portalJpmalogonPg.chkBox_sitePhrase) .................... skipped
+* delay(25000) ............................................................ skipped</failure>
+  </testcase>
+</testsuite>

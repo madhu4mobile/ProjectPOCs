@@ -1,0 +1,35 @@
+{
+  "portalLogonPg": {
+    "test1": "I am in portalJpmalogonPg",
+    "txtBox_userId": "input#userId",
+    "button_continue": "button#continueButtonMain",
+    "chkBox_sitePhrase": "input#sitePhrase",
+    "txtBox_password": "input#password",
+    "txtBox_token": "input#tokenCode",
+    "button_logon": "button#logOnButton",
+    "button_duplicate_continue": "button#continueButton",
+    "button_duplicate_quit": "button#quitButton",
+    "tab_checks": "a#Checks_Center",
+    "link_qa2" : "//a[text()='QA2 link']",
+    "iframe_checks": "//iframe[@name='Checks_Center']",
+    "title_checks_home" : "//font[contains(text(),'Checks')]",
+    "tab_checkInq1" : "//td[@id='Inquiry']//a[.=' Inquiry ']",
+    "tab_checkInq2": "//a[.=' Inquiry ']",
+    "tab_checkInq": "//td[@id=' Inquiry ']",
+    "dropDown_selectedAccount":"select#SELECTED_ACCOUNT"
+  },
+  "leftNav": {
+    "test2": "I am in leftNav",
+    "home": "{}Home",
+    "invoices": "{a}Invoices",
+    "transactions": "{^}Transactions"
+  },
+  "transactions": {
+    "test3": "I am in transactions",
+    "addFirst": ".transactions .qwl-secondary-button",
+    "descriptionInput": ".description-cell input",
+    "description": ".description-cell .header5",
+    "amount": ".amount-cell input"
+  }
+}
+//td[@id='Inquiry']//a[.=' Inquiry ']

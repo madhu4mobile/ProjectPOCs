@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/trail/facebook/login_test.feature" skipped="0" tests="1" time="2.418115">
+  <testcase classname="src.test.java.trail.facebook.login_test" name="try reading from loginOR.json" time="2.418115">
+    <system-out>* def myOR = read('this:test.json') ....................................... passed
+* call myOR ............................................................... passed
+* print " Author :",author ................................................ passed
+* print " Role   :",role .................................................. passed</system-out>
+  </testcase>
+</testsuite>

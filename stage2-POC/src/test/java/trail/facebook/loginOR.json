@@ -1,0 +1,21 @@
+{
+  "loginPg": {
+    "test1": "I am in portalJpmalogonPg",
+    "email": "#email",
+    "password": "#pass",
+    "loginBtn": "#loginbutton"
+  },
+  "leftNav": {
+    "test2": "I am in leftNav",
+    "home": "{}Home",
+    "invoices": "{a}Invoices",
+    "transactions": "{^}Transactions"
+  },
+  "transactions": {
+    "test3": "I am in transactions",
+    "addFirst": ".transactions .qwl-secondary-button",
+    "descriptionInput": ".description-cell input",
+    "description": ".description-cell .header5",
+    "amount": ".amount-cell input"
+  }
+}

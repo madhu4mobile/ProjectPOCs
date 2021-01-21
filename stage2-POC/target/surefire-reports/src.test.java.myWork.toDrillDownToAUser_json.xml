@@ -1,0 +1,39 @@
+<testsuite failures="0" name="src/test/java/myWork/toDrillDownToAUser_json.feature" skipped="0" tests="2" time="6.729611">
+  <testcase classname="src.test.java.myWork.toDrillDownToAUser_json" name="to drill down to individual json elements" time="6.686873">
+    <system-out>* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* def userRes = read('../resources/myUsers.json') ......................... passed
+Given url URL ............................................................. passed
+And path '1' .............................................................. passed
+When method get ........................................................... passed
+Then print 'user1Res.data.first_name :', user1Res.data.first_name ......... passed
+Then print 'The first user from myUsers.json :',userRes.data[0] ........... passed
+* print 'checking root elements (total_pages) from myUsers.json :',userRes.total_pages . passed
+Then match  response.data.first_name == user1Res.data.first_name .......... passed
+* print "----------To check the type of json element ------------" ........ passed
+And match userRes.page == '#number' ....................................... passed
+And match userRes.data[0].email == '#string' .............................. passed
+* print "------- following way can be used to check if the json field is not existing or present" . passed
+And match userRes.student == '#notpresent' ................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.myWork.toDrillDownToAUser_json" name="try to write a loop down to reach to the corresponding user with id" time="0.042738">
+    <system-out>* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* def userRes = read('../resources/myUsers.json') ......................... passed
+Given url URL ............................................................. passed
+And path '1' .............................................................. passed
+When method get ........................................................... passed
+Then print 'user1Res.data.first_name :', user1Res.data.first_name ......... passed
+Then print 'The first user from myUsers.json :',userRes.data[0] ........... passed
+* print 'checking root elements (total_pages) from myUsers.json :',userRes.total_pages . passed
+Then match  response.data.first_name == user1Res.data.first_name .......... passed
+* print "----------To check the type of json element ------------" ........ passed
+And match userRes.page == '#number' ....................................... passed
+And match userRes.data[0].email == '#string' .............................. passed
+* print "------- following way can be used to check if the json field is not existing or present" . passed
+And match userRes.student == '#notpresent' ................................ passed
+* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* def userRes = read('../resources/myUsers.json') ......................... passed</system-out>
+  </testcase>
+</testsuite>

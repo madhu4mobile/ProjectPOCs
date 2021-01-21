@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>trail.facebook.login_test</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">0</div>
+            
+<div class="bg-danger" id="nav-fail">1</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-01-19 12:40:44 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item failed">
+<a href="#[1:8]">[1:8] try reading from loginOR.json </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">trail/facebook/login_test.feature</span><span class="feature-description">checking ORs from json</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:8]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:8]</span><span class="scenario-name">try reading from loginOR.json </span>
+</div>
+<div class="scenario-time failed">ms: 15274</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:8]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:8]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* def myOR = read('this:loginOR.json')</div>
+</div>
+<div class="time-cell passed">21</div>
+</div>
+<div class="step-row" data-parent="[1:8]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* read('this:test.json')</div>
+</div>
+<div class="time-cell passed">13</div>
+</div>
+<div class="step-row" data-parent="[1:8]bg">
+<div class="step-container" id="3">
+<div class="step-ref bg-step">3</div>
+<div class="step-cell passed">* call myOR</div>
+</div>
+<div class="time-cell passed">18</div>
+</div>
+<div class="preformatted" data-parent="3">12:40:29.122 not a js function or feature file: [type: MAP, value: {loginPg={test1=I am in portalJpmalogonPg, email=#email, password=#pass, loginBtn=#loginbutton}, leftNav={test2=I am in leftNav, home={}Home, invoices={a}Invoices, transactions={^}Transactions}, transactions={test3=I am in transactions, addFirst=.transactions .qwl-secondary-button, descriptionInput=.description-cell input, description=.description-cell .header5, amount=.amount-cell input}}]</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">* print "the first json element as loginPg:",myOR[1]</div>
+</div>
+<div class="time-cell passed">56</div>
+</div>
+<div class="preformatted" data-parent="4">12:40:29.178 [print] the first json element as loginPg:</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">Given driver 'https://www.facebook.com/login'</div>
+</div>
+<div class="time-cell passed">12015</div>
+</div>
+<div class="preformatted" data-parent="5">12:40:29.195 type was null, defaulting to 'chrome'</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">And waitForUrl('https://www.facebook.com/login')</div>
+</div>
+<div class="time-cell passed">83</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref failed">7</div>
+<div class="step-cell failed">And click('testAccounts.submit')</div>
+</div>
+<div class="time-cell failed">3069</div>
+</div>
+<div class="preformatted" data-parent="7">login_test.feature:12 - evaluation (js) failed: click('testAccounts.submit'), java.lang.RuntimeException: js eval failed twice:document.querySelector("testAccounts.submit").click(), error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:46","objectId":"{\"injectedScriptId\":1,\"id\":3}"}
+stack trace: com.intuit.karate.driver.DevToolsDriver.eval(DevToolsDriver.java:300)</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref skipped"></div>
+<div class="step-cell comment">#And input('#email', 'testEmail')</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref skipped">8</div>
+<div class="step-cell skipped">* delay(5000)</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

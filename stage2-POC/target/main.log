@@ -1,0 +1,201 @@
+22:22:47.122 type was null, defaulting to 'chrome'
+22:22:59.687 [print] --------------------------------------------
+22:22:59.720 [print] loginLocator.portalLogonPg.txtBox_userId: input#userId
+22:22:59.750 [print] URL taken from locator.js :
+22:22:59.775 [print] data from ../resources/myUsers.json as support : {
+  "url": "https://reqres.in/#support-heading",
+  "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+}
+
+22:22:59.776 [print] --------------------------------------------
+22:15:23.509 waitUntil (js): failed after 5 retries and 110466 milliseconds
+------clicked checkInq
+21:36:53.337 waitUntil (js): failed after 3 retries and 11967 milliseconds
+ 'qa') {
+     myVars.AM_USERNAME = 'myUserName';
+     myVars.AM_PASSWORD = 'myPa55word';
+    }
+
+    if(env == 'live') {
+         myVars.AM_USERNAME = 'admin';
+         myVars.AM_PASSWORD = 'secret';
+    }
+
+    return myLocators;
+}
+Input": ".description-cell input",
+    "description": ".description-cell .header5",
+    "amount": ".amount-cell input"
+  }
+}
+
+11:37:24.572 type was null, defaulting to 'chrome'
+America/Chicago",
+  "duration": 30
+}
+
+17:50:41.918 [print] 10
+17:50:41.918 [print] {
+  "meetingSource": "MS Team",
+  "hostId": "abc",
+  "topic": "Daily  standup",
+  "agenda": "Daily  standup",
+  "startDateTime": "2021-01-15",
+  "timeZone": "America/Chicago",
+  "duration": 30
+}
+
+re
+1 < Set-Cookie: __cfduid=ddeefa6a75f833392ee8f1a2fb95895391610377625; expires=Wed, 10-Feb-21 15:07:05 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 079395968c00007fa853ae5000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+09:07:05.586 [print] {
+  "per_page": 6,
+  "total": 12,
+  "data": [
+    {
+      "last_name": "Bluth",
+      "id": 1,
+      "avatar": "https://reqres.in/img/faces/1-image.jpg",
+      "first_name": "George",
+      "email": "george.bluth@reqres.in"
+    },
+    {
+      "last_name": "Weaver",
+      "id": 2,
+      "avatar": "https://reqres.in/img/faces/2-image.jpg",
+      "first_name": "Janet",
+      "email": "janet.weaver@reqres.in"
+    },
+    {
+      "last_name": "Wong",
+      "id": 3,
+      "avatar": "https://reqres.in/img/faces/3-image.jpg",
+      "first_name": "Emma",
+      "email": "emma.wong@reqres.in"
+    },
+    {
+      "last_name": "Holt",
+      "id": 4,
+      "avatar": "https://reqres.in/img/faces/4-image.jpg",
+      "first_name": "Eve",
+      "email": "eve.holt@reqres.in"
+    },
+    {
+      "last_name": "Morris",
+      "id": 5,
+      "avatar": "https://reqres.in/img/faces/5-image.jpg",
+      "first_name": "Charles",
+      "email": "charles.morris@reqres.in"
+    },
+    {
+      "last_name": "Ramos",
+      "id": 6,
+      "avatar": "https://reqres.in/img/faces/6-image.jpg",
+      "first_name": "Tracey",
+      "email": "tracey.ramos@reqres.in"
+    }
+  ],
+  "page": 1,
+  "total_pages": 2,
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+09:07:05.704 request:
+1 > GET https://reqres.in/api/users/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+09:07:05.789 response time in milliseconds: 81.69
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5105
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 60ff8b9f599ae1f2-ORD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 11 Jan 2021 15:07:05 GMT
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=w1VlAuK7OWdamKI73W%2FJ9fObjPXkyiWTpoXs8aEEWP9o0IjPzQbpyuHJbzqEOK0%2BzPdPIz4suXYWEiHWt1YXCotvcUZ3Lo%2F0ikw%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d29cfe00abd33aa6f97d97b72b842aecc1610377625; expires=Wed, 10-Feb-21 15:07:05 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 07939597940000e1f217133000000001
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+09:07:05.835 [print] ----------To check the type of json element ------------
+09:07:05.857 [print] ------- following way can be used to check if the json field is not existing or present
+09:07:06.009 request:
+1 > GET https://reqres.in/api/users/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+09:07:06.169 response time in milliseconds: 158.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5105
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 60ff8ba14b113053-ORD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 11 Jan 2021 15:07:05 GMT
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=8Hw0f1CMvVDqFj2WvkyJdwJOseoSYx7RJIwBpICoja6%2Fwt5RqMHsvg8k8GBbaZOe33Zp4Y%2Fi7t4qkHimi5PRcNOoUdhcpSP9kqs%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de5814482d0ecfcbff1f640d709fa91861610377625; expires=Wed, 10-Feb-21 15:07:05 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 07939598c800003053693af000000001
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+09:07:06.176 [print] response: {
+  "data": {
+    "last_name": "Bluth",
+    "id": 1,
+    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+    "first_name": "George",
+    "email": "george.bluth@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+09:07:06.259 [print] userRes.data[0] : {
+  "id": 1,
+  "email": "george.bluth@reqres.in",
+  "first_name": "George",
+  "last_name": "Bluth",
+  "avatar": "https://reqres.in/img/faces/1-image.jpg"
+}
+
+09:07:06.305 [print] userRes.data[0]+ ', '+ userRes.support[0] : {id=1, email=george.bluth@reqres.in, first_name=George, last_name=Bluth, avatar=https://reqres.in/img/faces/1-image.jpg}, null
+09:07:06.326 [print] userRes.data[0]+ ', '+ userRes[3] : {id=1, email=george.bluth@reqres.in, first_name=George, last_name=Bluth, avatar=https://reqres.in/img/faces/1-image.jpg}, null
+09:07:06.347 [print] userRes.data[0].support : 
+09:07:06.503 [print] 3.0
+ feature file: [type: PRIMITIVE, value: 3.0]
+09:04:03.512 [print] 

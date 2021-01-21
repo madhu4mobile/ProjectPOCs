@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>auto_UI_CustApp.custApp_Prod_login_with_json</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-01-20 10:23:19 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:9]">[1:9] execute login till checks homepage </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">auto_UI_CustApp/custApp_Prod_login_with_json.feature</span><span class="feature-description">portal login using json locators</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:9]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:9]</span><span class="scenario-name">execute login till checks homepage </span>
+</div>
+<div class="scenario-time passed">ms: 32035</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:9]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:9]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* def loginLocator = read('projOR/loginPg_locators.json')</div>
+</div>
+<div class="time-cell passed">21</div>
+</div>
+<div class="step-row" data-parent="[1:9]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* call read('projOR/locators.js')</div>
+</div>
+<div class="time-cell passed">63</div>
+</div>
+<div class="step-row" data-parent="[1:9]bg">
+<div class="step-container" id="3">
+<div class="step-ref bg-step">3</div>
+<div class="step-cell passed">* def userRes = read('../resources/myUsers.json')</div>
+</div>
+<div class="time-cell passed">12</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment">#    * print user1Res</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment">#    * print URL</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Given driver accessProdUrl</div>
+</div>
+<div class="time-cell passed">12310</div>
+</div>
+<div class="preformatted" data-parent="4">22:22:47.122 type was null, defaulting to 'chrome'</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">And path 'jpmalogon'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">And maximize()</div>
+</div>
+<div class="time-cell passed">262</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">* print "--------------------------------------------"</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="preformatted" data-parent="7">22:22:59.687 [print] --------------------------------------------</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">And print 'loginLocator.portalLogonPg.txtBox_userId:',loginLocator.portalLogonPg.txtBox_userId</div>
+</div>
+<div class="time-cell passed">32</div>
+</div>
+<div class="preformatted" data-parent="8">22:22:59.720 [print] loginLocator.portalLogonPg.txtBox_userId: input#userId</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">And print 'URL taken from locator.js :',accessURL</div>
+</div>
+<div class="time-cell passed">29</div>
+</div>
+<div class="preformatted" data-parent="9">22:22:59.750 [print] URL taken from locator.js :</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">And print 'data from ../resources/myUsers.json as support :',userRes.support</div>
+</div>
+<div class="time-cell passed">25</div>
+</div>
+<div class="preformatted" data-parent="10">22:22:59.775 [print] data from ../resources/myUsers.json as support : {
+  "url": "https://reqres.in/#support-heading",
+  "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+}</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">* print "--------------------------------------------"</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="11">22:22:59.776 [print] --------------------------------------------</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">When retry().input(loginLocator.portalLogonPg.txtBox_userId, 'autochecks1')</div>
+</div>
+<div class="time-cell passed">391</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref passed">13</div>
+<div class="step-cell passed">And retry().click(loginLocator.portalLogonPg.button_continue)</div>
+</div>
+<div class="time-cell passed">49</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">* delay(1000)</div>
+</div>
+<div class="time-cell passed">1063</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">And waitFor(loginLocator.portalLogonPg.chkBox_sitePhrase)</div>
+</div>
+<div class="time-cell passed">20</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">And click(loginLocator.portalLogonPg.chkBox_sitePhrase)</div>
+</div>
+<div class="time-cell passed">35</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="17">
+<div class="step-ref passed">17</div>
+<div class="step-cell passed">And waitForEnabled(loginLocator.portalLogonPg.txtBox_password)</div>
+</div>
+<div class="time-cell passed">20</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="18">
+<div class="step-ref passed">18</div>
+<div class="step-cell passed">And input(loginLocator.portalLogonPg.txtBox_password, 'Pwsuser0')</div>
+</div>
+<div class="time-cell passed">142</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">And input(txtBox_token, '144695')</div>
+</div>
+<div class="time-cell passed">95</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment"># the above element from locators.js</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref passed">20</div>
+<div class="step-cell passed">And retry().click(loginLocator.portalLogonPg.button_logon)</div>
+</div>
+<div class="time-cell passed">38</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref passed">21</div>
+<div class="step-cell passed">* retry(5, 10000).waitForAny(loginLocator.portalLogonPg.button_duplicate_continue, loginLocator.portalLogonPg.button_duplicate_quit)</div>
+</div>
+<div class="time-cell passed">11140</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref passed">22</div>
+<div class="step-cell passed">* optional(loginLocator.portalLogonPg.button_duplicate_continue).click()</div>
+</div>
+<div class="time-cell passed">40</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment">#And retry(3,5000).optional(loginLocator.portalLogonPg.button_duplicate_continue).click()</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="23">
+<div class="step-ref passed">23</div>
+<div class="step-cell passed">* retry(5,5000).waitFor(loginLocator.portalLogonPg.tab_checks).click()</div>
+</div>
+<div class="time-cell passed">6233</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

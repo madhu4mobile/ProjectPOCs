@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>src.test.java.myWork.toDrillDownToAUser_json</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">2</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-01-20 12:41:40 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:8]">[1:8] to drill down to individual json elements </a>
+</div>
+<div class="nav-item passed">
+<a href="#[2:24]">[2:24] try to write a loop down to reach to the corresponding user with id </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/myWork/toDrillDownToAUser_json.feature</span><span class="feature-description">to Drill Down To A User using JSON and js</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:8]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:8]</span><span class="scenario-name">to drill down to individual json elements </span>
+</div>
+<div class="scenario-time passed">ms: 6687</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:8]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:8]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* def user1Res = read('../resources/user1.json')</div>
+</div>
+<div class="time-cell passed">2118</div>
+</div>
+<div class="step-row" data-parent="[1:8]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* call read('../resources/myUtils.js')</div>
+</div>
+<div class="time-cell passed">102</div>
+</div>
+<div class="step-row" data-parent="[1:8]bg">
+<div class="step-container" id="3">
+<div class="step-ref bg-step">3</div>
+<div class="step-cell passed">* def userRes = read('../resources/myUsers.json')</div>
+</div>
+<div class="time-cell passed">20</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Given url URL</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">And path '1'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">4295</div>
+</div>
+<div class="preformatted" data-parent="6">12:41:39.568 request:
+1 &gt; GET https://reqres.in/api/users/1
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+12:41:40.337 response time in milliseconds: 762.05
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 1205
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 614aee520f5f8552-ORD
+1 &lt; Cache-Control: max-age=14400
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 20 Jan 2021 18:41:40 GMT
+1 &lt; Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=9qq2ytV0tGdI9h%2BMuSA4aUYulNdoBEn1Y5zoKXamWZmNDzJlIP4unnSbrrZmR7Gv6c4z3ML%2Fipw%2B9yqegKRT3cP4aM3nGNyXt5I%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d9e9b3f01e66aec360724716ef972afe81611168100; expires=Fri, 19-Feb-21 18:41:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+1 &lt; cf-request-id: 07c2b34741000085521faca000000001
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref passed"></div>
+<div class="step-cell comment">#    Then print "response.data.first_name:",response.data.first_name</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">Then print 'user1Res.data.first_name :', user1Res.data.first_name</div>
+</div>
+<div class="time-cell passed">34</div>
+</div>
+<div class="preformatted" data-parent="7">12:41:40.374 [print] user1Res.data.first_name : George</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">Then print 'The first user from myUsers.json :',userRes.data[0]</div>
+</div>
+<div class="time-cell passed">51</div>
+</div>
+<div class="preformatted" data-parent="8">12:41:40.426 [print] The first user from myUsers.json : {
+  "id": 1,
+  "email": "george.bluth@reqres.in",
+  "first_name": "George",
+  "last_name": "Bluth",
+  "avatar": "https://reqres.in/img/faces/1-image.jpg"
+}</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">* print 'checking root elements (total_pages) from myUsers.json :',userRes.total_pages</div>
+</div>
+<div class="time-cell passed">14</div>
+</div>
+<div class="preformatted" data-parent="9">12:41:40.440 [print] checking root elements (total_pages) from myUsers.json : 2</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">Then match  response.data.first_name == user1Res.data.first_name</div>
+</div>
+<div class="time-cell passed">14</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">* print "----------To check the type of json element ------------"</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="preformatted" data-parent="11">12:41:40.461 [print] ----------To check the type of json element ------------</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">And match userRes.page == '#number'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref passed">13</div>
+<div class="step-cell passed">And match userRes.data[0].email == '#string'</div>
+</div>
+<div class="time-cell passed">11</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">* print "------- following way can be used to check if the json field is not existing or present"</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="preformatted" data-parent="14">12:41:40.485 [print] ------- following way can be used to check if the json field is not existing or present</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">And match userRes.student == '#notpresent'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[2:24]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [2:24]</span><span class="scenario-name">try to write a loop down to reach to the corresponding user with id </span>
+</div>
+<div class="scenario-time passed">ms: 43</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[2:24]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[2:24]bg">
+<div class="step-container" id="16">
+<div class="step-ref bg-step">16</div>
+<div class="step-cell passed">* def user1Res = read('../resources/user1.json')</div>
+</div>
+<div class="time-cell passed">17</div>
+</div>
+<div class="step-row" data-parent="[2:24]bg">
+<div class="step-container" id="17">
+<div class="step-ref bg-step">17</div>
+<div class="step-cell passed">* call read('../resources/myUtils.js')</div>
+</div>
+<div class="time-cell passed">13</div>
+</div>
+<div class="step-row" data-parent="[2:24]bg">
+<div class="step-container" id="18">
+<div class="step-ref bg-step">18</div>
+<div class="step-cell passed">* def userRes = read('../resources/myUsers.json')</div>
+</div>
+<div class="time-cell passed">13</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

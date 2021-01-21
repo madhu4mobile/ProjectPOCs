@@ -1,0 +1,12 @@
+<testsuite failures="0" name="src/test/java/myWork/toGetUser1ResAndCompareWithJson.feature" skipped="0" tests="1" time="6.710795">
+  <testcase classname="src.test.java.myWork.toGetUser1ResAndCompareWithJson" name="play with user1 response and Json" time="6.710795">
+    <system-out>* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* call read('../resources/myUsers.json') .................................. passed
+Given url URL ............................................................. passed
+And path '1' .............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print "total_pages :", total_pages .................................... passed</system-out>
+  </testcase>
+</testsuite>

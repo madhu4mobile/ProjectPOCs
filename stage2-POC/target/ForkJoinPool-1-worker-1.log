@@ -1,0 +1,51 @@
+12:41:39.568 request:
+1 > GET https://reqres.in/api/users/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+12:41:40.337 response time in milliseconds: 762.05
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1205
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 614aee520f5f8552-ORD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 20 Jan 2021 18:41:40 GMT
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=9qq2ytV0tGdI9h%2BMuSA4aUYulNdoBEn1Y5zoKXamWZmNDzJlIP4unnSbrrZmR7Gv6c4z3ML%2Fipw%2B9yqegKRT3cP4aM3nGNyXt5I%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9e9b3f01e66aec360724716ef972afe81611168100; expires=Fri, 19-Feb-21 18:41:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 07c2b34741000085521faca000000001
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+12:41:40.374 [print] user1Res.data.first_name : George
+12:41:40.426 [print] The first user from myUsers.json : {
+  "id": 1,
+  "email": "george.bluth@reqres.in",
+  "first_name": "George",
+  "last_name": "Bluth",
+  "avatar": "https://reqres.in/img/faces/1-image.jpg"
+}
+
+12:41:40.440 [print] checking root elements (total_pages) from myUsers.json : 2
+12:41:40.461 [print] ----------To check the type of json element ------------
+12:41:40.485 [print] ------- following way can be used to check if the json field is not existing or present
+7fc9111611167133; expires=Fri, 19-Feb-21 18:25:33 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 07c2a485bd0000c52c8aae7000000001
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+12:25:33.303 [print] total_pages :

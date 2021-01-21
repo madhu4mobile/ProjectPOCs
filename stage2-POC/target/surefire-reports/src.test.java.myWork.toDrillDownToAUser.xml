@@ -1,0 +1,23 @@
+<testsuite failures="0" name="src/test/java/myWork/toDrillDownToAUser.feature" skipped="0" tests="2" time="4.749146">
+  <testcase classname="src.test.java.myWork.toDrillDownToAUser" name="to drill down to individual json elements" time="4.731217">
+    <system-out>* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* def userRes = read('../resources/myUsers.json') ......................... passed
+Given url URL ............................................................. passed
+And path '1' .............................................................. passed
+When method get ........................................................... passed
+Then print "result.response.data.first_name",result.response.data.first_name . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.myWork.toDrillDownToAUser" name="try to write a loop down to reach to the corresponding user with id" time="0.017929">
+    <system-out>* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* def userRes = read('../resources/myUsers.json') ......................... passed
+Given url URL ............................................................. passed
+And path '1' .............................................................. passed
+When method get ........................................................... passed
+Then print "result.response.data.first_name",result.response.data.first_name . passed
+* def user1Res = read('../resources/user1.json') .......................... passed
+* call read('../resources/myUtils.js') .................................... passed
+* def userRes = read('../resources/myUsers.json') ......................... passed</system-out>
+  </testcase>
+</testsuite>

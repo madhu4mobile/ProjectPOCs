@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>auto_UI_CustApp.cust_Portal_Login</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">0</div>
+            
+<div class="bg-danger" id="nav-fail">1</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-01-19 09:58:40 AM</div>        
+      
+<div class="nav-container">
+<div class="nav-item failed">
+<a href="#[1:13]">[1:13] flight search page </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">auto_UI_CustApp/cust_Portal_Login.feature</span><span class="feature-description">to login portal</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:13]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:13]</span><span class="scenario-name">flight search page </span>
+</div>
+<div class="scenario-time failed">ms: 173</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:13]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:13]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* call read('auto_UI_CustApp/projOR/loginPg_locators.json')</div>
+</div>
+<div class="time-cell passed">80</div>
+</div>
+<div class="preformatted" data-parent="1">09:58:40.333 not a js function or feature file: [type: MAP, value: {portalJpmalogonPg={test1=I am in portalJpmalogonPg, txtBox_userId=input#userId, button_continue=#continueButtonMain, chkBox_sitePhrase=input#sitePhrase, txtBox_password=input#password, txtBox_token=input#tokenCode, button_logon=button#logOnButton, button_duplicate_continue=button#continueButton}, leftNav={test2=I am in leftNav, home={}Home, invoices={a}Invoices, transactions={^}Transactions}, transactions={test3=I am in transactions, addFirst=.transactions .qwl-secondary-button, descriptionInput=.description-cell input, description=.description-cell .header5, amount=.amount-cell input}}]</div>
+<div class="step-row" data-parent="[1:13]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* print 'test1 :',test1</div>
+</div>
+<div class="time-cell passed">29</div>
+</div>
+<div class="preformatted" data-parent="2">09:58:40.388 [print] test1 :</div>
+<div class="step-row" data-parent="[1:13]bg">
+<div class="step-container" id="3">
+<div class="step-ref bg-step">3</div>
+<div class="step-cell passed">* print 'portalJpmalogonPg.test1 :',portalJpmalogonPg.test1</div>
+</div>
+<div class="time-cell passed">22</div>
+</div>
+<div class="preformatted" data-parent="3">09:58:40.411 [print] portalJpmalogonPg.test1 :</div>
+<div class="step-row" data-parent="[1:13]bg">
+<div class="step-container" id="4">
+<div class="step-ref bg-step">4</div>
+<div class="step-cell passed">* print 'test2 :',test2</div>
+</div>
+<div class="time-cell passed">16</div>
+</div>
+<div class="preformatted" data-parent="4">09:58:40.428 [print] test2 :</div>
+<div class="step-row" data-parent="[1:13]bg">
+<div class="step-container" id="5">
+<div class="step-ref bg-step">5</div>
+<div class="step-cell passed">* print 'leftNav.test2 :',leftNav.test2</div>
+</div>
+<div class="time-cell passed">15</div>
+</div>
+<div class="preformatted" data-parent="5">09:58:40.443 [print] leftNav.test2 :</div>
+<div class="step-row" data-parent="[1:13]bg">
+<div class="step-container" id="6">
+<div class="step-ref bg-step">6</div>
+<div class="step-cell failed">* def myUserIdBox = txtBox_userId</div>
+</div>
+<div class="time-cell failed">11</div>
+</div>
+<div class="preformatted" data-parent="6">-unknown-:9 - evaluation (js) failed: txtBox_userId, javax.script.ScriptException: ReferenceError: "txtBox_userId" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref skipped">7</div>
+<div class="step-cell skipped">Given driver 'https://access.jpmorgan.com/jpmalogon'</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref skipped">8</div>
+<div class="step-cell skipped">When waitForUrl('https://access.jpmorgan.com/jpmalogon')</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref skipped">9</div>
+<div class="step-cell skipped">And maximize()</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref skipped"></div>
+<div class="step-cell comment">#And waitFor('input#userId')</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref skipped">10</div>
+<div class="step-cell skipped">And retry().input(myUserIdBox, 'autochecks1')</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref skipped">11</div>
+<div class="step-cell skipped">And retry().click(portalJpmalogonPg.button_continue)</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref skipped">12</div>
+<div class="step-cell skipped">And retry().click(portalJpmalogonPg.chkBox_sitePhrase)</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref skipped"></div>
+<div class="step-cell comment">#And input('input#userId','autochecks1')</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref skipped">13</div>
+<div class="step-cell skipped">* delay(25000)</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
