@@ -1,0 +1,25 @@
+{
+  "portalJpmalogonPg": {
+    "test1": "I am in portalJpmalogonPg",
+    "txtBox_userId": "input#userId",
+    "button_continue": "#continueButtonMain",
+    "chkBox_sitePhrase": "input#sitePhrase",
+    "txtBox_password": "input#password",
+    "txtBox_token": "input#tokenCode",
+    "button_logon": "button#logOnButton",
+    "button_duplicate_continue": "button#continueButton"
+  },
+  "leftNav": {
+    "test2": "I am in leftNav",
+    "home": "{}Home",
+    "invoices": "{a}Invoices",
+    "transactions": "{^}Transactions"
+  },
+  "transactions": {
+    "test3": "I am in transactions",
+    "addFirst": ".transactions .qwl-secondary-button",
+    "descriptionInput": ".description-cell input",
+    "description": ".description-cell .header5",
+    "amount": ".amount-cell input"
+  }
+}
