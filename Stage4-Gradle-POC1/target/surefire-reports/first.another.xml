@@ -1,0 +1,7 @@
+<testsuite failures="0" name="first/another.feature" skipped="0" tests="1" time="0.032984">
+  <testcase classname="first.another" name="anther feature trying to execute" time="0.032984">
+    <system-out>Given print 'This is given' ............................................... passed
+When print 'when this happens' ............................................ passed
+Then print 'then this happens' ............................................ passed</system-out>
+  </testcase>
+</testsuite>
