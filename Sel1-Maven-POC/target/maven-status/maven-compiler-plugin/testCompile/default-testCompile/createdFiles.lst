@@ -1,0 +1,5 @@
+pages\GoogleSearchPage.class
+Basics\BrowserOpenTest.class
+Basics\BrowserOpenTestWithWebDriverManager.class
+test\GoogleSearchTestPOM.class
+Basics\BrowserOpenAndDoBasicOperations.class
