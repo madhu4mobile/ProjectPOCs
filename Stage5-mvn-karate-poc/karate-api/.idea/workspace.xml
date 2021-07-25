@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffc4f35a-9614-44a0-a99a-4d17d968718b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.sdkman/candidates/maven/current" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1voPYQiZF0veVpAiuVewy15HT5D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Dev_on_Cloud\karate-poc\karate-api\src\test\java\examples\users\external-apis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: reqresUsers">
+    <configuration name="Feature: reqResTestUser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/externalAPIs/reqResTestUser.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="karate-api" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: reqResTestUser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: reqresUsers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/externalAPIs/reqresUsers.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="karate-api" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: reqresUsers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: create a user and then get it by id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/externalAPIs/reqresUsers.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="karate-api" />
+      <option name="NAME_FILTER" value="^create a user and then get it by id$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^create a user and then get it by id$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: create a user and then get it by id" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: get all users and then get the first user by id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/externalAPIs/reqResTestUser.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="karate-api" />
+      <option name="NAME_FILTER" value="^get all users and then get the first user by id$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^get all users and then get the first user by id$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: get all users and then get the first user by id" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reqresRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="karate-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.externalAPIs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples.externalAPIs" />
+      <option name="MAIN_CLASS_NAME" value="examples.externalAPIs.reqresRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: reqresUsers" />
+        <item itemvalue="Cucumber java.Scenario: create a user and then get it by id" />
+        <item itemvalue="Cucumber java.Scenario: get all users and then get the first user by id" />
+        <item itemvalue="Cucumber java.Feature: reqResTestUser" />
+        <item itemvalue="JUnit.reqresRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffc4f35a-9614-44a0-a99a-4d17d968718b" name="Default Changelist" comment="" />
+      <created>1627225516274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627225516274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="315" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1627227149592">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="595" y="315" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627227149592" />
+    <state x="595" y="340" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1627227045507">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="595" y="340" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627227045507" />
+    <state x="599" y="249" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627236117509">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="599" y="249" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627236117509" />
+    <state x="662" y="445" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627227055798">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="662" y="445" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1728.1120@0.0.1728.1120" timestamp="1627227055798" />
+    <state x="613" y="300" key="FileChooserDialogImpl" timestamp="1627236114478">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="613" y="300" key="FileChooserDialogImpl/0.0.1728.1120@0.0.1728.1120" timestamp="1627236114478" />
+    <state x="271" y="262" key="FileDocumentManager.FileCacheConflict" timestamp="1627228196006">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="271" y="262" key="FileDocumentManager.FileCacheConflict/0.0.1728.1120@0.0.1728.1120" timestamp="1627228196006" />
+    <state width="1685" height="360" key="GridCell.Tab.0.bottom" timestamp="1627235190256">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state width="1685" height="360" key="GridCell.Tab.0.bottom/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
+    <state width="1685" height="360" key="GridCell.Tab.0.center" timestamp="1627235190256">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state width="1685" height="360" key="GridCell.Tab.0.center/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
+    <state width="1685" height="360" key="GridCell.Tab.0.left" timestamp="1627235190256">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state width="1685" height="360" key="GridCell.Tab.0.left/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
+    <state width="1685" height="360" key="GridCell.Tab.0.right" timestamp="1627235190256">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state width="1685" height="360" key="GridCell.Tab.0.right/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
+    <state x="373" y="203" key="SettingsEditor" timestamp="1627235364513">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="373" y="203" key="SettingsEditor/0.0.1728.1120@0.0.1728.1120" timestamp="1627235364513" />
+    <state x="561" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1627235407260">
+      <screen x="0" y="0" width="1728" height="1120" />
+    </state>
+    <state x="561" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627235407260" />
+  </component>
+</project>

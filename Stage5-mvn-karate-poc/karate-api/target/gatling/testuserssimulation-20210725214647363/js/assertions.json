@@ -1,0 +1,10 @@
+{
+  "simulation": "examples.externalAPIs.TestUsersSimulation",
+  "simulationId": "testuserssimulation",
+  "start": 1627249607363,
+  "description": "",
+  "scenarios": ["getUsersCall"],
+  "assertions": [
+
+  ]
+}
