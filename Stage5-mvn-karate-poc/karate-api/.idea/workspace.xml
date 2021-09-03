@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc4f35a-9614-44a0-a99a-4d17d968718b" name="Default Changelist" comment="" />
+    <list default="true" id="ffc4f35a-9614-44a0-a99a-4d17d968718b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/all_sessions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/assertions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/assertions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/gatling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/global_stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/highstock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/moment-2.24.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/js/unpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/req_get--api-users--99661.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/req_get--api-users-facf1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/simulation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/arrow_down_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/arrow_right_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/cible.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/little_arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/logo-gatling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/sortable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/sorted-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/sorted-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/stat-fleche-bas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/stat-fond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/stat-l-roue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/stat-l-temps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210725214647363/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/reqresRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/reqresRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,24 +81,26 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1voPYQiZF0veVpAiuVewy15HT5D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.sdkman/candidates/gradle/current" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\Dev_on_Cloud\karate-poc\karate-api\src\test\java\examples\users\external-apis" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: reqresUsers">
+  <component name="RunManager" selected="JUnit.reqresRunner">
     <configuration name="Feature: reqResTestUser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/externalAPIs/reqResTestUser.feature" />
@@ -132,16 +186,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: reqresUsers" />
-        <item itemvalue="Cucumber java.Scenario: create a user and then get it by id" />
-        <item itemvalue="Cucumber java.Scenario: get all users and then get the first user by id" />
-        <item itemvalue="Cucumber java.Feature: reqResTestUser" />
         <item itemvalue="JUnit.reqresRunner" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -154,55 +216,5 @@
       <updated>1627225516274</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="595" y="315" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1627227149592">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="595" y="315" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627227149592" />
-    <state x="595" y="340" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1627227045507">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="595" y="340" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627227045507" />
-    <state x="599" y="249" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627236117509">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="599" y="249" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627236117509" />
-    <state x="662" y="445" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627227055798">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="662" y="445" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1728.1120@0.0.1728.1120" timestamp="1627227055798" />
-    <state x="613" y="300" key="FileChooserDialogImpl" timestamp="1627236114478">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="613" y="300" key="FileChooserDialogImpl/0.0.1728.1120@0.0.1728.1120" timestamp="1627236114478" />
-    <state x="271" y="262" key="FileDocumentManager.FileCacheConflict" timestamp="1627228196006">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="271" y="262" key="FileDocumentManager.FileCacheConflict/0.0.1728.1120@0.0.1728.1120" timestamp="1627228196006" />
-    <state width="1685" height="360" key="GridCell.Tab.0.bottom" timestamp="1627235190256">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state width="1685" height="360" key="GridCell.Tab.0.bottom/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
-    <state width="1685" height="360" key="GridCell.Tab.0.center" timestamp="1627235190256">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state width="1685" height="360" key="GridCell.Tab.0.center/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
-    <state width="1685" height="360" key="GridCell.Tab.0.left" timestamp="1627235190256">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state width="1685" height="360" key="GridCell.Tab.0.left/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
-    <state width="1685" height="360" key="GridCell.Tab.0.right" timestamp="1627235190256">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state width="1685" height="360" key="GridCell.Tab.0.right/0.0.1728.1120@0.0.1728.1120" timestamp="1627235190256" />
-    <state x="373" y="203" key="SettingsEditor" timestamp="1627235364513">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="373" y="203" key="SettingsEditor/0.0.1728.1120@0.0.1728.1120" timestamp="1627235364513" />
-    <state x="561" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1627235407260">
-      <screen x="0" y="0" width="1728" height="1120" />
-    </state>
-    <state x="561" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1120@0.0.1728.1120" timestamp="1627235407260" />
   </component>
 </project>
