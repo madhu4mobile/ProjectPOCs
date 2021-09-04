@@ -1,6 +1,5 @@
 package examples
 
-import org.junit.BeforeClass
 import spock.lang.Shared
 
 
