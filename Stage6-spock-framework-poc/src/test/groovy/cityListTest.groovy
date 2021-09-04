@@ -1,16 +1,25 @@
+import spock.lang.Shared
 import spock.lang.Specification
 
 class cityListTest extends Specification {
 
 // test fixtures
+
     def "setupSpec"() {
         println("SetupSpec runs one time though there are multiple tests")
-        def cityList = new LinkedList<CityInfo>()
+
     }
 
     def "setup"() {
         println "in setup !!  -- This runs each time before every test"
+
     }
+    @Shared
+    def cityList =  cityList = new LinkedList<CityInfo>()  // this initiation can be done once globally for all tests
+
+/*    def info(){
+        println("To initialize and use the cityList once globally for all tests")
+    }*/
 
     def "01 Happy Path - CityNames - assertion tips"() {
         given: "1.1 CityList object initiated - trying from setupSpec"
@@ -36,7 +45,7 @@ class cityListTest extends Specification {
 
     def "02 Happy path test with population "() {
         given: "2.1 CityList object initiated"
-            def cityList = new LinkedList<CityInfo>()
+            //def cityList = new LinkedList<CityInfo>()
 
         when: "2.2 cities being added to cityList"
             println("==> in test-2 The cities being added are local to the test. The does not exist after the test")
