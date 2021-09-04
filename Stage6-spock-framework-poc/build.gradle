@@ -1,0 +1,38 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+group 'org.helpinghands'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation (
+            'org.codehaus.groovy:groovy-all:3.0.8'              // for groovy
+
+    )
+
+    testImplementation (
+            'org.junit.jupiter:junit-jupiter-api:5.7.2',
+            'org.spockframework:spock-core:2.0-groovy-3.0',      // for spock framework
+            'com.athaydes:spock-reports:2.0-groovy-3.0',        // for spock reports
+            'org.slf4j:slf4j-simple:1.7.32',                     // for log 4j simple reports
+            'org.slf4j:slf4j-api:1.7.32'                        // for log 4j api reports
+
+    )
+    testRuntimeOnly (
+            'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    )
+
+}
+
+test {
+    useJUnitPlatform()
+}
