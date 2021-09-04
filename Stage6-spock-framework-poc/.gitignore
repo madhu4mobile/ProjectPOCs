@@ -18,6 +18,14 @@ local.properties
 .settings/
 .loadpath
 
+#################
+## Intellij
+#################
+/.idea
+# Default ignored files
+/shelf/
+/workspace.xml
+
 # External tool builders
 .externalToolBuilders/
 
