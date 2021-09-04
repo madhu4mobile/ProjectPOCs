@@ -5,6 +5,7 @@ class cityListTest extends Specification {
 // test fixtures
     def "setupSpec"() {
         println("SetupSpec runs one time though there are multiple tests")
+        def cityList = new LinkedList<CityInfo>()
     }
 
     def "setup"() {
@@ -12,8 +13,8 @@ class cityListTest extends Specification {
     }
 
     def "01 Happy Path - CityNames - assertion tips"() {
-        given: "1.1 CityList object initiated"
-            def cityList = new LinkedList<CityInfo>()
+        given: "1.1 CityList object initiated - trying from setupSpec"
+
 
         when: "1.2 cities being added to cityList"
             println("==> in test-1")
