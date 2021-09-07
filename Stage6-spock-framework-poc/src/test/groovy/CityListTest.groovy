@@ -15,7 +15,7 @@ class cityListTest extends Specification {
 
     }
     @Shared
-    def cityList =  cityList = new LinkedList<CityInfo>()  // this initiation can be done once globally for all tests
+    def CityList =  cityList = new LinkedList<CityInfo>()  // this initiation can be done once globally for all tests
 
 /*    def info(){
         println("To initialize and use the cityList once globally for all tests")
