@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc4f35a-9614-44a0-a99a-4d17d968718b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/ExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/externalAPIs/TestUsersSimulation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/externalAPIs/reqResTestUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/externalAPIs/reqresRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/externalAPIs/reqresUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/users/UsersRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-perf/src/test/java/examples/users/users.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/examples.externalAPIs.reqResTestUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/examples.externalAPIs.reqResTestUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/examples.externalAPIs.reqResTestUser.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/examples.externalAPIs.reqResTestUser.karate-json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/examples.users.users.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/examples.users.users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/examples.users.users.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/examples.users.users.karate-json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/ExamplesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/ExamplesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/TestUsersSimulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/reqresRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/reqresRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
