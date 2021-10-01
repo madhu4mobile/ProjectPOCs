@@ -4,7 +4,7 @@ Feature: To test one response from reqres.in
   Background:
     * url 'https://reqres.in/api'
 
-  Scenario: get all users and then get the first user by id
+  Scenario: check a user for given id from reqRes.in
     Given path 'users'
     When method get
     Then status 200

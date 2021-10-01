@@ -1,4 +1,5 @@
-Feature: sample karate test script
+@ignore
+Feature: sample karate test script from ReqRes.in
   for help, see: https://github.com/intuit/karate/wiki/IDE-Support
 
   Background:
