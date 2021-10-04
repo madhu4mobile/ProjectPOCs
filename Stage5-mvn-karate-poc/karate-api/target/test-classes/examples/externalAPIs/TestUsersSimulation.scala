@@ -21,9 +21,9 @@ class TestUsersSimulation extends Simulation {
       )
 
       setUp(
-        getUser.inject(rampUsers(1000).during(5 seconds)),
-        testAUser.inject(rampUsers(200).during(5 seconds)),
-        usersFromReqRes.inject(rampUsers(500).during(10 seconds))
+        getUser.inject(rampUsers(10).during(5 seconds)),
+        testAUser.inject(rampUsers(20).during(5 seconds)),
+        usersFromReqRes.inject(rampUsers(15).during(10 seconds))
 
       )
 

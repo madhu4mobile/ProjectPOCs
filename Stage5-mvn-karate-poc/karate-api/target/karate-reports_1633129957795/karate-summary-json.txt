@@ -1,1 +1,0 @@
-{"featureSummary":[],"efficiency":0.0,"featuresPassed":0,"featuresFailed":0,"totalTime":0.0,"threads":5,"featuresSkipped":0,"resultDate":"2021-10-01 06:10:43 PM","scenariosPassed":0,"version":"1.0.1","scenariosfailed":0,"elapsedTime":484.0}

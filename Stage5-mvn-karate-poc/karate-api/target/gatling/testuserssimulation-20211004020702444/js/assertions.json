@@ -1,0 +1,10 @@
+{
+  "simulation": "examples.externalAPIs.TestUsersSimulation",
+  "simulationId": "testuserssimulation",
+  "start": 1633313222444,
+  "description": "",
+  "scenarios": ["get all users and then get the first user by id", "check a user for given id from reqRes.in", "sample karate test script from ReqRes.in"],
+  "assertions": [
+
+  ]
+}
