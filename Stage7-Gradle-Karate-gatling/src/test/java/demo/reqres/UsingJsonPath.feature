@@ -24,7 +24,7 @@ Feature: To drill down keys and values using Json Path
 
     And def subjects = $..subjects
     And def subject_name = karate.jsonPath(subjects,"$..['name']")
-    And print "subject_name :/n" ,Karate.pretty(subject_name)
+    And print "subject_name :\n" ,karate.pretty(subject_name)
 
 #  Please note: In karate, you can retrieve a few keys (rather than the entire object) from a JSON array or an object, this can be achieved by using square brackets along with comma(,) separated key names in karate.jsonPath method.
 #  karate.jsonPath(response, "$..['key1','key2','key3']")
@@ -33,7 +33,7 @@ Feature: To drill down keys and values using Json Path
     # And def subject_name_grade = karate.jsonPath(response, "$..subjects[?(@.name =~ /.*Grade.*/i)]")
 
     And def subject_name_grade = karate.jsonPath(response, "$..subjects[?(@.name =~ /.*Grade.*/i)]")
-    And print "subject_name_grade :/n" ,subject_name_grade
+    And print "subject_name_grade :\n" ,karate.pretty(subject_name_grade)
 
 
   Scenario: Example 5: Get subject url present on the last index and subject names on the last to index of the array.

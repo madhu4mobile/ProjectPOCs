@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[1:12]","start":1634278259892,"end":1634278261101,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[1:12] 01:10:59.892-01:11:01.101 Example 1: Get an objects present in \u201Cebook\u201D array."},{"id":2,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[2:17]","start":1634278261111,"end":1634278261359,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[2:17] 01:11:01.111-01:11:01.359 Example 2: Get \u201Clccn\u201D key on the 0th index of \u201Cidentifiers\u201D array."},{"id":3,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[3:22]","start":1634278261389,"end":1634278261699,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[3:22] 01:11:01.389-01:11:01.699 Example 3: Get all the \u201Cname\u201D keys from \u201Csubjects\u201D error excluding \u201Curl\u201D.","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[4:31]","start":1634278261708,"end":1634278262009,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[4:31] 01:11:01.708-01:11:02.009 Example 4: Obtain all subjects with the word \u201CGrade\u201D in their names.","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[5:39]","start":1634278262021,"end":1634278262302,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[5:39] 01:11:02.021-01:11:02.302 Example 5: Get subject url present on the last index and subject names on the last to index of the array."},{"id":6,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[6:45]","start":1634278262310,"end":1634278262565,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[6:45] 01:11:02.310-01:11:02.565 the Example 6 : Get JSON object based on indexes range."},{"id":7,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[7:53]","start":1634278262577,"end":1634278262868,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[7:53] 01:11:02.577-01:11:02.868 the Example 7: Get size of the array by using karate.jsonPath method"},{"id":8,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[8:60]","start":1634278262878,"end":1634278263216,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[8:60] 01:11:02.878-01:11:03.216 the Example 8: There are times when dynamically obtaining values from a JSON response is needed. We\u2019ll see how to get the value of the \u201Curl\u201D key by passing the subject name in the example below."},{"id":9,"group":1,"content":"src\/test\/java\/demo\/reqres\/UsingJsonPath[9:72]","start":1634278263222,"end":1634278263517,"title":"src\/test\/java\/demo\/reqres\/UsingJsonPath[9:72] 01:11:03.222-01:11:03.517 the Example 9: Get the JSON objects excluding an object based on a condition."}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
