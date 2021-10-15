@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.demo.reqres.Experimental</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-10-14 11:54:39 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:39]"><span>[1:39]</span> <span>To try with Json object Navigation</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/demo/reqres/Experimental.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To do all experiments here</span>
+          <span class="feature-description">for help, see: https://github.com/intuit/karate/wiki/IDE-Support</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:39]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">name=tryJsonNavigation</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:39]</span>
+                <span class="scenario-name">To try with Json object Navigation</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>395</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:39]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def myTestJsonObject =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">53</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;result&quot;: &quot;SUCCESS&quot;,
+ &quot;rawAttr&quot;: [
+     {
+         &quot;attributes&quot;: [
+             {
+                 &quot;name&quot;: &quot;resourceid&quot;,
+                 &quot;value&quot;: &quot;7A7Q123456&quot;
+             },
+             {
+                 &quot;name&quot;: &quot;physicalid&quot;,
+                 &quot;value&quot;: &quot;7A7Q123456&quot;
+             },
+             {
+                 &quot;name&quot;: &quot;dsw-label&quot;,
+                 &quot;value&quot;: &quot;MY Product00004285&quot;
+             },
+             {
+                 &quot;name&quot;: &quot;dsw-created&quot;,
+                 &quot;value&quot;: &quot;2019-11-06T08:39:39Z&quot;
+             }
+         ]
+     }
+ ],
+ &quot;physicalid&quot;: &quot;7A7Q123456&quot;,
+ &quot;contextPath&quot;: &quot;/path&quot;,
+ &quot;id&quot;: &quot;7A7Q123456&quot;,
+ &quot;message&quot;: null
+                  }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def strVar = myTestJsonObject.rawAttr</span>
+      </div>
+    </div>
+    <div class="time-cell passed">160</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>json jsonVar = strVar</span>
+      </div>
+    </div>
+    <div class="time-cell passed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def attrb = karate.jsonPath(jsonVar, &#39;$..attributes.[2].value&#39;)[0]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">133</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;\n\n Attrb\n&#39;, attrb</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.43">23:54:39.626 [print] 
+
+ Attrb
+ MY Product00004285 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref failed">45</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>def anotherAttrb = karate.jsonPath(jsonVar, &#39;$..attributes.[1].key&#39;)[0]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">22</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.45">23:54:39.650 src/test/java/demo/reqres/Experimental.feature:45
+And def anotherAttrb = karate.jsonPath(jsonVar, &#39;$..attributes.[1].key&#39;)[0]
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.jsonPath(jsonVar, &#39;$..attributes.[1].key&#39;)[0]
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: Index 0 out of bounds for length 0
+- java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+- java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+- java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+- java.base/java.util.Objects.checkIndex(Objects.java:372)
+- java.base/java.util.ArrayList.get(ArrayList.java:459)
+- com.intuit.karate.graal.JsList.get(JsList.java:60)
+- com.oracle.truffle.host.GuestToHostCodeCache$6.boundaryGet(GuestToHostCodeCache.java:172)
+
+src/test/java/demo/reqres/Experimental.feature:45
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref skipped">46</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &quot;\n\n Attrb1&#39;s Key :&quot;,  anotherAttrb</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
