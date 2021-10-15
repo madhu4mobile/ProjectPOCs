@@ -11,6 +11,10 @@ plugins {
 sourceCompatibility = 11
 targetCompatibility = 11
 
+/*ext {
+    "karateVersion" = 1.1.0
+}*/
+
 repositories {
     // Use JCenter for resolving dependencies.
     mavenCentral()
