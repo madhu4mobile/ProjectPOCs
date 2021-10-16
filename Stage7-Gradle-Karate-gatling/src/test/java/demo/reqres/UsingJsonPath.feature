@@ -9,7 +9,7 @@ Feature: To drill down keys and values using Json Path
     #And print response
 
 
-  Scenario: Example 1: Get an objects present in “ebook” array.
+  Scenario: Example 1: Get an objects present in “ebooks” array.
 
     And def data = $..ebooks[*]
     And print " ebooks :", data

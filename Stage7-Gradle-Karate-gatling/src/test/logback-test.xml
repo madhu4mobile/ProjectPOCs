@@ -15,10 +15,10 @@
     </appender>    
    
 <!--    <logger name="com.intuit" level="DEBUG"/>-->
-    <logger name="com.intuit" level="DEBUG"/>
+    <logger name="com.intuit.karate" level="INFO"/>
    
-    <root level="info">
-        <appender-ref ref="STDOUT" />
+    <root level="warn">
+<!--        <appender-ref ref="STDOUT" />-->
         <appender-ref ref="FILE" />
     </root>
   
