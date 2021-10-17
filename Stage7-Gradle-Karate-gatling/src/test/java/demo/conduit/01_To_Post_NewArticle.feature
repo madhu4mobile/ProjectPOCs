@@ -21,7 +21,6 @@ Feature: login with an existing user
     Then status 200
 
     # logic to check if there are no articles at first
-     # * if( response.articles == [] ) { var myNum = 0; } else {    console.log("All is well");   }
 
     * def myResponse = response
 

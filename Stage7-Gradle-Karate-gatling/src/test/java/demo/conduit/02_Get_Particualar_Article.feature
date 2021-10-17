@@ -20,3 +20,28 @@ Feature: login with testuser1 and to list out all articles and filter to article
     When method get
     Then status 200
     And print karate.pretty(response)
+
+    And print response.articles[response.articlesCount-1]
+
+
+    * def myTempResponse = response
+
+    * def myConditionToCheckIfNoArticle =
+      """
+      function(arg) {
+        if ( myTempResponse.articlesCount == 0) {
+           console.log( "  ---- There are No articles  ----")
+           var myNum = 0
+           return myNum
+        }
+        else {
+          var slug = arg.articles[0].slug;
+          var myNum = slug.substr(7,1);
+          return slug
+        }
+        return "returning from outside"
+      }
+      """
+    # calling function after passing response as variable
+    * def myNum = call myConditionToCheckIfNoArticle myTempResponse
+    * print myNum
