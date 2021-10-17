@@ -2,6 +2,8 @@ Feature: To drill down keys and values using Json Path
   ref - From <https://priyankab85.medium.com/how-has-karatedsl-simplified-jsonpath-evaluation-228c6d7651e0>
   url used for the api : http://openlibrary.org/api/volumes/brief/isbn/9780525440987.json
 
+  Best Online Json Path evaluator : https://jsonpath.com/
+
   Background: Details of url and backgrounds
     Given url 'http://openlibrary.org/api/volumes/brief/isbn/9780525440987.json'
     When method Get
@@ -21,7 +23,7 @@ Feature: To drill down keys and values using Json Path
 
   Scenario: Example 3: Get all the “name” keys from “subjects” error excluding “url”.
 # Get subjects arrayAnd def subjects = $..subjects# From subjects array get all namesAnd def subject_name = karate.jsonPath(subjects,"$..['name']")And print subject_name
-
+    # And print karate.pretty(response)
     And def subjects = $..subjects
     And def subject_name = karate.jsonPath(subjects,"$..['name']")
     And print "subject_name :\n" ,karate.pretty(subject_name)
