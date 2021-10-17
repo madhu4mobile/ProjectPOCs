@@ -19,6 +19,10 @@ Feature: login with an existing user
     Given path 'articles'
     When method get
     Then status 200
+
+    # logic to check if there are no articles at first
+      * if( response.articles[0] == [] ) { * def myNum = 0; } else {       }
+
     # to get slug from most recent article
     And def slug = response.articles[0].slug
     # to get the number after the word Article in slug
