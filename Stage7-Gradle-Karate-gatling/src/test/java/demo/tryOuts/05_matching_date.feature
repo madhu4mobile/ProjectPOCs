@@ -15,5 +15,5 @@ Feature: To search in the array of String response and to match date portion
 
       * def myJson = read('classpath:demo/resources/data/response_With_Dates.json')
       * print "Today for the code : ", myDate()
-      * match myJson.myArray contains any myDate()
+      #* match myJson.myArray contains any myDate()
 
