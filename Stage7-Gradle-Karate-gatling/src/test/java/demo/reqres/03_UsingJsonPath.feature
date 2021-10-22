@@ -1,3 +1,4 @@
+@ignore
 Feature: To drill down keys and values using Json Path
   ref - From <https://priyankab85.medium.com/how-has-karatedsl-simplified-jsonpath-evaluation-228c6d7651e0>
   url used for the api : http://openlibrary.org/api/volumes/brief/isbn/9780525440987.json

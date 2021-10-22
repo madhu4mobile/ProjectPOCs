@@ -1,3 +1,4 @@
+@ignore
 Feature: To do all experiments here
   for help, see: https://github.com/intuit/karate/wiki/IDE-Support
 

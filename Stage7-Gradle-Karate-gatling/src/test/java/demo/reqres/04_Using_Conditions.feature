@@ -1,3 +1,4 @@
+@ignore
 Feature: To use conditions and loops with JavaScript touch
   for help, see: https://github.com/intuit/karate/wiki/IDE-Support
 

@@ -1,3 +1,4 @@
+@ignore
 Feature: To list out all user and then to add and modify, delete users later to use in performance
   for help, see: https://github.com/intuit/karate/wiki/IDE-Support
 
