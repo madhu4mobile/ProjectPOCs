@@ -9,6 +9,9 @@
 > gradlew test -Dtest=TotalDemoRunner --console=plain
 
 > gradle test-compile gatling:test
+> 
+###With the selection of different environments during run time
+> gradlew test -Dkarate.options"--tags @smoke" -Dkarate.env="e2e"
 
 ###To check the execution reports html
 > build/reports/tests/test/index.html

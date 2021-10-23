@@ -1,5 +1,4 @@
 function fn() {
-
     /* Setting System Properties :
     *  Intellij : Edfit Run Configureatiions > VM Options
     *           -Dproperty=value
@@ -20,6 +19,7 @@ function fn() {
       var config = {
         env: env,
         myVarName: 'someValue',
+        extraString: ' for user1',
         sslConfig: true,
 
 //            proxy:
@@ -37,19 +37,30 @@ function fn() {
           if (env == 'dev') {
             // customize
             // e.g. config.foo = 'bar';
-            config.apiUrl = 'https://my-dev-api.com';
-          } else if (env == 'e2e') {
+            config.userEmail = 'testuser1@karate.com';
+            config.userPassword = 'test123';
+            config.apiUrl = 'https://conduit.productionready.io/api';
+          };
+
+          if (env == 'test') {
             // customize
+            config.userEmail = 'testuser10@karate.com';
+            config.userPassword = 'test123';
             config.apiUrl = 'https://my-e2e-api.com';
           };
         //karate.configure('proxy',  { uri: 'http://xx.xx.xxx.xx:8080', username: 'myuserid', password: 'xxxxxx' });
 
           // don't wait more than 5 seconds for a connection or response
-            karate.configure('connectTimeout', 5000);
-            karate.configure('readTimeout', 5000);
+            karate.configure('connectTimeout'   , 5000);
+            karate.configure('readTimeout'      , 5000);
             //To call previously set proxy from karate.configuration
-/*            karate.configure('proxy',config.proxy);
-            karate.log('Present proxy being used is :', config.proxy.uri );*/
+        /*  karate.configure('proxy',config.proxy);
+            karate.log('Present proxy being used is :', config.proxy.uri );  */
+
+            //Best way to setup accessToken using karate.callSingle. Here passing parameter is authToken.
+            var accessToken = karate.callSingle('classpath:resources/helpers/CreateToken.feature', config).authToken
+            //In the step below, we are setting the authToken in Headers
+            karate.configure('headers', {Authorization: 'Token '+accessToken})
 
         var env = karate.env; // get system property 'karate.env'
         karate.log('karate.env system property was:', env);

@@ -1,21 +1,24 @@
 Feature: login with an existing user
 
-  Background: url, and mandatory paramas
-    Given url 'https://conduit.productionready.io/api'
-      #Given url 'https://api.realworld.io/api'
-      #Given url 'http://localhost:4200'
-    * def extraString = ' for user1'
+  Background: url, and mandatory params
+    Given url apiUrl
+#      #Given url 'https://api.realworld.io/api'
+#      #Given url 'http://localhost:4200'
+#    * def extraString = ' for user1'
+#    Given path 'users/login'
+#    And request {"user":{"email":"testuser1@karate.com","password":"test123"}}
+#    When method post
+#    Then status 200
+    #And print karate.pretty(response)
+#    And def authToken = response.user.token
+#    * def tokenFromHelper = callonce read('classpath:helpers/CreateToken.feature')
+#    # the above will return and object
+#    * def token = tokenFromHelper.authToken
+
 
   Scenario: To capture slug details from the most recent article and to create a next article
-    Given path 'users/login'
-    And request {"user":{"email":"testuser1@karate.com","password":"test123"}}
-    When method post
-    Then status 200
-    #And print karate.pretty(response)
-    And def token = response.user.token
-
     ### The logic to capture slug details from the most recent article and to create a next article
-    Given header Authorization = 'Token '+ token
+    #Given header Authorization = 'Token '+ token
     Given path 'articles'
     When method get
     Then status 200
@@ -70,7 +73,7 @@ Feature: login with an existing user
                     }
               }
           """
-    Given header Authorization = 'Token '+ token
+    #Given header Authorization = 'Token '+ token
     Given path 'articles'
     And request myNewArticleRequestBody
     And method post
