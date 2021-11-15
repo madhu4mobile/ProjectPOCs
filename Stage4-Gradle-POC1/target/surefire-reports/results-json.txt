@@ -1,1 +1,1 @@
-{"features":1,"ignored":0,"efficiency":0.5623886670264435,"failures":null,"totalTime":1042.1062,"threads":1,"scenarios":2,"failed":0,"passed":2,"version":"0.9.6","elapsedTime":1853.0}
+{"features":1,"ignored":0,"efficiency":0.11856658385093168,"failures":{"src.test.java.temp.05_reportIssue":"05_reportIssue.feature:14 - could not find or read file: {\r\n    \"content\":\"Testfile 1113 413\"\r\n}"},"totalTime":95.4461,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.6","elapsedTime":805.0}

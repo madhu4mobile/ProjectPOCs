@@ -9263,3 +9263,246 @@ stack trace: com.intuit.karate.Resource.getStream(Resource.java:135)
 19:15:10.069 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
 19:15:10.083 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
 19:15:10.199 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:26:05.959 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:26:06.265 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:26:06.287 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:26:06.417 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:26:07.228 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:26:07.235 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:26:07.342 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:26:40.416 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:26:40.708 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:26:40.737 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:26:40.864 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:26:41.669 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:26:41.690 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:26:41.778 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:27:42.819 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:27:43.135 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:27:43.154 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] james.white@user.com
+20:27:43.170 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:27:43.281 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:27:44.109 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:27:44.124 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:27:44.212 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:30:15.173 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:30:15.475 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:30:15.490 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+20:30:15.510 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:30:15.638 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:30:16.490 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:30:16.497 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:30:16.602 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:31:30.804 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:31:31.117 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:31:31.126 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+20:31:31.142 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:31:31.259 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:31:32.157 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:31:32.167 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:31:32.278 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:33:15.193 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:33:15.496 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:33:15.513 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+20:33:15.527 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:33:15.653 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:33:16.595 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:33:16.614 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:33:16.693 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+20:33:31.375 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:33:31.692 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+20:33:31.709 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+20:33:31.724 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+20:33:31.839 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+20:33:32.778 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:33:32.795 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+20:33:32.898 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:22:07.426 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:22:07.747 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:22:07.773 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:22:07.884 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:22:08.825 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:22:08.844 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:22:08.997 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:23:30.603 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:23:30.905 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:23:31.025 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:23:31.050 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:23:31.981 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:23:32.000 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:23:32.091 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:24:36.381 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:24:36.663 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:24:36.791 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:24:36.811 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:24:37.667 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:24:37.672 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:24:37.771 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:24:52.209 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:24:52.514 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:24:52.642 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] D:/OnGoing/ProjectPOCs/Stage4-Gradle-POC1/src/test/java/temp/../first/02_another.feature
+22:24:52.654 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:24:52.671 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:24:53.504 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:24:53.505 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:24:53.607 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:49:38.202 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:49:38.547 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:49:38.683 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:49:38.700 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:49:39.554 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:49:39.565 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:49:39.718 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:50:28.213 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:50:28.564 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:50:28.693 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] D:/OnGoing/ProjectPOCs/Stage4-Gradle-POC1/src/test/java/temp/../first/02_another.feature
+22:50:28.706 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:50:28.730 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:50:29.639 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:50:29.659 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:50:29.788 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/03_inTemp.feature
+22:52:46.044 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:52:46.349 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:52:46.473 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+22:52:46.484 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:52:46.501 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:52:47.471 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:52:47.490 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:52:47.608 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+23:00:23.460 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:00:23.765 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+23:00:23.899 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+23:00:23.910 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+23:00:23.925 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+23:00:24.832 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+23:00:24.846 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+23:00:25.541 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:00:25.542 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 405, expected: 200, response time: 629, url: https://www.4shared.com/, response: <!doctype html><html lang="en"><head><title>HTTP Status 405 – Method Not Allowed</title><style type="text/css">H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}</style></head><body><h1>HTTP Status 405 – Method Not Allowed</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> Request method 'POST' not supported</p><p><b>Description</b> The method received in the request-line is known by the origin server but not supported by the target resource.</p><hr class="line" /><h3>Apache Tomcat/7.0.94</h3></body></html>
+23:00:25.697 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+23:04:53.667 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:04:53.954 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+23:04:54.070 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+23:04:54.087 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+23:04:54.111 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+23:04:54.959 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+23:04:54.972 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+23:04:55.139 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+23:05:22.375 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:05:22.684 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+23:05:22.813 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+23:05:22.828 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+23:05:22.847 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+23:05:23.647 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+23:05:23.666 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+23:05:23.842 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:10:24.139 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:10:24.467 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:10:24.592 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:10:24.592 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:10:24.624 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:10:25.548 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:10:25.548 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:10:25.579 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ../E2E/common/data/AutoTestFile_1113_413.dat
+08:10:25.773 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:12:11.700 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:12:12.022 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:12:12.227 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:12:12.241 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:12:12.259 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:12:13.146 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:12:13.157 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:12:13.274 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:13:22.014 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:13:22.290 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:13:22.396 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:13:22.406 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:13:22.423 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:13:23.173 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:13:23.179 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:13:23.285 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:14:19.107 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:14:19.409 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:14:19.516 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:14:19.528 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:14:19.542 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:14:20.280 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:14:20.298 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:14:20.398 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:15:08.265 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:15:08.601 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:15:08.736 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:15:08.750 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:15:08.769 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:15:09.733 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:15:09.747 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:15:09.762 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] '../E2E/common/data/AutoTestFile_1113_413.dat'
+08:15:09.859 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:18:56.546 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:18:56.827 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] '/src/test/java/E2E/common/data/AutoTestFile_1113_413.dat'
+08:18:59.455 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/05_reportIssue.feature
+08:20:40.824 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:20:41.175 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+08:20:41.257 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/05_reportIssue.feature
+08:21:28.497 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:21:28.859 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+08:21:28.934 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/05_reportIssue.feature
+08:22:05.920 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:22:06.280 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+08:22:06.286 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate.FileUtils - feature relative path resolution failed: Illegal char <> at index 1: {
+    "content":"Testfile 1113 413"
+}
+08:22:06.364 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/05_reportIssue.feature

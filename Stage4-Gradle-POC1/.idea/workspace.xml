@@ -96,7 +96,7 @@
       <recent name="D:\OnGoing\ProjectPOCs\Stage4-Gradle-POC1\src\test\java\E2E\common\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 03_inTemp">
+  <component name="RunManager" selected="Cucumber Java.Feature: 04_testUpload">
     <configuration name="Feature: 01_test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/first/01_test.feature" />
@@ -116,14 +116,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: 01_upload_TestFile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: 03_inTemp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/E2E/individual/01_upload_TestFile.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/temp/03_inTemp.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="org.automation.tools.test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: 01_upload_TestFile" />
+      <option name="SUGGESTED_NAME" value="Feature: 03_inTemp" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,14 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: 03_inTemp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: 04_testUpload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/temp/03_inTemp.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/temp/04_testUpload.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="org.automation.tools.test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: 03_inTemp" />
+      <option name="SUGGESTED_NAME" value="Feature: 04_testUpload" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -194,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: 04_testUpload" />
         <item itemvalue="Cucumber Java.Feature: 03_inTemp" />
         <item itemvalue="Cucumber Java.Feature: 01_test" />
         <item itemvalue="Cucumber Java.Feature: inTemp" />
         <item itemvalue="Cucumber Java.Feature: another" />
-        <item itemvalue="Cucumber Java.Feature: 01_upload_TestFile" />
       </list>
     </recent_temporary>
   </component>

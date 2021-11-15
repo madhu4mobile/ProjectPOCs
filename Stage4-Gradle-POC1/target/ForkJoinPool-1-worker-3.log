@@ -1,75 +1,20 @@
-19:15:09.028 [print] In temp folder and calling  03_myJson.json from /first 
-19:15:09.041 [print] james.white@user.com
-19:15:09.058 [print] In temp folder and calling  01_test.feature from /first 
-19:15:09.186 [print] In first folder and ran 01_test.feature
-19:15:10.069 [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
-19:15:10.083 [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
-ders": {
-    "Date": [
-      "Mon, 15 Nov 2021 01:14:10 GMT"
-    ],
-    "Content-Type": [
-      "application/json; charset=utf-8"
-    ],
-    "Transfer-Encoding": [
-      "chunked"
-    ],
-    "Connection": [
-      "keep-alive"
-    ],
-    "x-powered-by": [
-      "Express"
-    ],
-    "x-ratelimit-limit": [
-      "1000"
-    ],
-    "x-ratelimit-remaining": [
-      "999"
-    ],
-    "x-ratelimit-reset": [
-      "1636906261"
-    ],
-    "vary": [
-      "Origin, Accept-Encoding"
-    ],
-    "access-control-allow-credentials": [
-      "true"
-    ],
-    "cache-control": [
-      "max-age=43200"
-    ],
-    "pragma": [
-      "no-cache"
-    ],
-    "expires": [
-      "-1"
-    ],
-    "x-content-type-options": [
-      "nosniff"
-    ],
-    "etag": [
-      "W/\"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM\""
-    ],
-    "via": [
-      "1.1 vegur"
-    ],
-    "CF-Cache-Status": [
-      "HIT"
-    ],
-    "Age": [
-      "3828"
-    ],
-    "Expect-CT": [
-      "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
-    ],
-    "Report-To": [
-      "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=okdIRYQvrW9ouAjOVxC6VmjabPQd3EFTyf%2BTMjKxYK%2FK2JYvPKZidqlSHx%2FwOplW31qe9qGO94%2FfqZ%2FxfEUbjqOUWjfaI9gsX%2Bx0s6JF6OpFrVKqZxPXbAXdKd%2B%2F40ZzMApYZXzpPn3o%2B44oHyyW\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
-    ],
-    "NEL": [
-      "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
-    ],
-    "Server": [
-      "cloudflare"
+08:22:06.281 [print] (..stream..)
+va/E2E/common/data/AutoTestFile_1113_413.dat'
+15:08.736 [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:15:08.750 [print] In temp folder and calling  01_test.feature from /first 
+08:15:08.769 [print] In first folder and ran 01_test.feature
+08:15:09.733 [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:15:09.747 [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:15:09.763 [print] '../E2E/common/data/AutoTestFile_1113_413.dat'
+rg.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:00:25.543 status code was: 405, expected: 200, response time: 629, url: https://www.4shared.com/, response: <!doctype html><html lang="en"><head><title>HTTP Status 405 – Method Not Allowed</title><style type="text/css">H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}</style></head><body><h1>HTTP Status 405 – Method Not Allowed</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> Request method 'POST' not supported</p><p><b>Description</b> The method received in the request-line is known by the origin server but not supported by the target resource.</p><hr class="line" /><h3>Apache Tomcat/7.0.94</h3></body></html>
+e"
     ],
     "CF-RAY": [
       "6ae49f09aff72a75-ORD"

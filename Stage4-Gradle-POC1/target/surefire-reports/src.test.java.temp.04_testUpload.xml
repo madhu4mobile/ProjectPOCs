@@ -1,33 +1,35 @@
-<testsuite failures="1" name="src/test/java/temp/03_inTemp.feature" skipped="0" tests="3" time="1.08837">
-  <testcase classname="src.test.java.temp.03_inTemp" name="lets call a file" time="0.130315">
+<testsuite failures="1" name="src/test/java/temp/04_testUpload.feature" skipped="0" tests="3" time="1.145086">
+  <testcase classname="src.test.java.temp.04_testUpload" name="lets call a file" time="0.136332">
     <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
-* def myFile = "../first/02_another.feature" .............................. passed
+* def myFile = "../first/03_myJson.json" .................................. passed
 And def myContent = read(myFile) .......................................... passed
 * print myContent ......................................................... passed</system-out>
   </testcase>
-  <testcase classname="src.test.java.temp.03_inTemp" name="lets try calling a feature" time="0.954048">
+  <testcase classname="src.test.java.temp.04_testUpload" name="lets try calling a feature" time="1.000305">
     <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
-* def myFile = "../first/02_another.feature" .............................. passed
+* def myFile = "../first/03_myJson.json" .................................. passed
 And def myContent = read(myFile) .......................................... passed
 * print myContent ......................................................... passed
 * print "In temp folder and calling  01_test.feature from /first " ........ passed
 And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
 * print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed</system-out>
   </testcase>
-  <testcase classname="src.test.java.temp.03_inTemp" name="lets try reading a file for multipart upload" time="0.004007">
-    <failure message="03_inTemp.feature:25 - could not find or read file: ../data/AutoTestFile_1113_413.dat">* print "In temp folder and calling  03_myJson.json from /first " ......... passed
-* def myFile = "../first/02_another.feature" .............................. passed
+  <testcase classname="src.test.java.temp.04_testUpload" name="lets try reading a file for multipart upload" time="0.008448">
+    <failure message="04_testUpload.feature:27 - could not find or read file: myVar">* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+* def myFile = "../first/03_myJson.json" .................................. passed
 And def myContent = read(myFile) .......................................... passed
 * print myContent ......................................................... passed
 * print "In temp folder and calling  01_test.feature from /first " ........ passed
 And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
 * print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed
 Given url 'https://www.4shared.com/' ...................................... passed
-And multipart file myFile = { read: '../data/AutoTestFile_1113_413.dat', filename: 'upload-name.dat', contentType: 'text/plain' } . failed
+* string myVar = "\'"+"../E2E/common/data/"+"AutoTestFile_1113_413"+".dat"+"\'" . passed
+* print myVar ............................................................. passed
+And multipart file myFile = { read: myVar, filename: 'my-Test.dat', contentType: 'text/plain' } . failed
 
 Stack Trace:
-com.intuit.karate.exception.KarateException: 03_inTemp.feature:25 - could not find or read file: ../data/AutoTestFile_1113_413.dat&#13;
-	at ✽.And multipart file myFile = { read: '../data/AutoTestFile_1113_413.dat', filename: 'upload-name.dat', contentType: 'text/plain' } (03_inTemp.feature:25)&#13;
+com.intuit.karate.exception.KarateException: 04_testUpload.feature:27 - could not find or read file: myVar&#13;
+	at ✽.And multipart file myFile = { read: myVar, filename: 'my-Test.dat', contentType: 'text/plain' } (04_testUpload.feature:27)&#13;
 
 And multipart field message = 'hello world' ............................... skipped
 When method post .......................................................... skipped
