@@ -5,7 +5,7 @@ Feature: Test all APIs in the following site, https://jsonplaceholder.typicode.c
     * url 'https://jsonplaceholder.typicode.com/'
 
   Scenario: Make the Primary call to check posts status
-
+    * print "In first folder and ran 01_test.feature"
     Given path 'posts'
     When method GET
     Then status 200

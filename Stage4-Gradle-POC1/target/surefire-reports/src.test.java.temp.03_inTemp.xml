@@ -1,0 +1,15 @@
+<testsuite failures="0" name="src/test/java/temp/03_inTemp.feature" skipped="0" tests="2" time="1.042106">
+  <testcase classname="src.test.java.temp.03_inTemp" name="lets call a file" time="0.015691">
+    <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+And def BodyOfRequest = read('classpath:first/03_myJson.json') ............ passed
+* print BodyOfRequest.email ............................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.temp.03_inTemp" name="lets try calling a feature" time="1.026416">
+    <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+And def BodyOfRequest = read('classpath:first/03_myJson.json') ............ passed
+* print BodyOfRequest.email ............................................... passed
+* print "In temp folder and calling  01_test.feature from /first " ........ passed
+And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
+* print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed</system-out>
+  </testcase>
+</testsuite>

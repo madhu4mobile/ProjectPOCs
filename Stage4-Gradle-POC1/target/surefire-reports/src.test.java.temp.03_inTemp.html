@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.temp.03_inTemp</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">2</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-11-14 07:15:10 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:5]">[1:5] lets call a file </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[2:12]">[2:12] lets try calling a feature </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/temp/03_inTemp.feature</span><span class="feature-description">to call other features</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:5]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:5]</span><span class="scenario-name">lets call a file </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 16</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">* print "In temp folder and calling  03_myJson.json from /first "</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">19:15:09.028 [print] In temp folder and calling  03_myJson.json from /first</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#And def BodyOfRequest = read(karate.properties['user.dir'] + '/src/test/java/temp/03_myJson.json')</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#And def BodyOfRequest = read('/src/test/java/first/03_myJson.json')</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">And def BodyOfRequest = read('classpath:first/03_myJson.json')</div>
+                        </div>
+                        <div class="time-cell passed">6</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">* print BodyOfRequest.email</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="preformatted" data-parent="3">19:15:09.041 [print] james.white@user.com</div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:12]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:12]</span><span class="scenario-name">lets try calling a feature </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1026</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">* print "In temp folder and calling  01_test.feature from /first "</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">19:15:09.058 [print] In temp folder and calling  01_test.feature from /first</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#And def BodyOfRequest = call read(karate.properties['user.dir'] + '/src/test/java/temp/01_test.feature')</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#And def BodyOfRequest = call read('/src/test/java/first/01_test.feature')</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#And def BodyOfRequest = call ('classpath:first/01_test.feature')</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">And def BodyOfRequest = call read('../first/01_test.feature')</div>
+                        </div>
+                        <div class="time-cell passed">1013</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5.1">
+                            <div class="step-ref passed">&gt;&gt;</div>
+                            <div class="step-cell passed">/OnGoing/ProjectPOCs/Stage4-Gradle-POC1/src/test/java/temp/../first/01_test.feature</div>
+                        </div>
+                        <div class="time-cell passed">891</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">* url 'https://jsonplaceholder.typicode.com/'</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">* print "In first folder and ran 01_test.feature"</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="preformatted" data-parent="7">19:15:09.186 [print] In first folder and ran 01_test.feature</div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Given path 'posts'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">856</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Then print "Title of the post with Id : 1 is --&gt; ",  response[0].title</div>
+                        </div>
+                        <div class="time-cell passed">27</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">19:15:10.069 [print] Title of the post with Id : 1 is --&gt;  sunt aut facere repellat provident occaecati excepturi optio reprehenderit</div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
+                            <div class="step-cell passed">* print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="preformatted" data-parent="12">19:15:10.083 [print] BodyOfRequest title from first request  -----&gt; sunt aut facere repellat provident occaecati excepturi optio reprehenderit</div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

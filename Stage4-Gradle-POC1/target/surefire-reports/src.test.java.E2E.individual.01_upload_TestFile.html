@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.E2E.individual.01_upload_TestFile</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">0</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">1</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-11-14 05:51:05 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item failed">
+                        <a href="#[1:16]">[1:16] CHK-3092-GENERATE-FILE-UPLOAO , LIST and validate response for file name </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/E2E/individual/01_upload_TestFile.feature</span><span class="feature-description">To upload a test file and then validate the upload | Background :&#13;
+  * def CalledJavaFn = Java.type('E2E.common.utilities.JavaFunctionUtils')&#13;
+  * def MMdd = CalledJavaFn.getDateInCustomFormat("MMdd")&#13;
+  * def RndNum = CalledJavaFn.randomDigitsBetweenMinMax(100,999)&#13;
+  * def fileName = "AutoTest_"+MMdd+"_"+RndNum&#13;
+  * print "File Name :	---&gt; "+fileName&#13;
+  * def genFile = Java.type('E2E.common.utilities.CaptureTestFileCreator')&#13;
+  * genFile.createFile(10, fileName )&#13;
+  * def myFIleWithPath = 'src/test/java/E2E/common/data/'+fileName&#13;
+  * print myFIleWithPath</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:16]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:16]</span><span class="scenario-name">CHK-3092-GENERATE-FILE-UPLOAO , LIST and validate response for file name </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 11</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">Given url 'https://ftscat2a.mfts.jpmchase.net'</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">And path '/api/v1.4/files/CDS01//'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">And param showdots = 'false'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">And param transferMode = 'BINARY'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref failed">5</div>
+                            <div class="step-cell failed">And multipart file myFile = { read: 'file: "src/test/java/E2E/common/data/"+fileName+". dat" ' }</div>
+                        </div>
+                        <div class="time-cell failed">3</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">01_upload_TestFile.feature:21 - could not find or read file: file: "src/test/java/E2E/common/data/"+fileName+". dat"</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref skipped"></div>
+                            <div class="step-cell comment"># And multipart file myFile = { read: 'file:"src/test/java/E2E/common/data/AutoTest_1113_200.dat"'</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref skipped">6</div>
+                            <div class="step-cell skipped">* header Authorization = call read('basic-auth.js') { username: 'xxxxx', password: 'yyyyy'}</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref skipped">7</div>
+                            <div class="step-cell skipped">When method POST</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref skipped">8</div>
+                            <div class="step-cell skipped">Then status 200</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref skipped">9</div>
+                            <div class="step-cell skipped">And print "=============== After upload ================================"</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref skipped"></div>
+                            <div class="step-cell comment">### Now to list out the files</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref skipped">10</div>
+                            <div class="step-cell skipped">Given url CaptureApiUrl</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref skipped">11</div>
+                            <div class="step-cell skipped">And path 'list'</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref skipped">12</div>
+                            <div class="step-cell skipped">When method get</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref skipped">13</div>
+                            <div class="step-cell skipped">Then status 200</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref skipped">14</div>
+                            <div class="step-cell skipped">And match response[0]..key contains "#regex (?i).*" + fileName + ".*"</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

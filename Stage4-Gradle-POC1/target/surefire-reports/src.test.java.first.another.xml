@@ -1,7 +1,9 @@
-<testsuite failures="0" name="src/test/java/first/another.feature" skipped="0" tests="1" time="0.018581">
-  <testcase classname="src.test.java.first.another" name="anther feature trying to execute" time="0.018581">
-    <system-out>Given print 'This is given' ............................................... passed
+<testsuite failures="0" name="src/test/java/first/another.feature" skipped="0" tests="1" time="1.133163">
+  <testcase classname="src.test.java.first.another" name="anther feature trying to execute" time="1.133163">
+    <system-out>* print "In first folder and ran another.feature" ......................... passed
+Given print 'This is given' ............................................... passed
 When print 'when this happens' ............................................ passed
-Then print 'then this happens' ............................................ passed</system-out>
+Then print 'then this happens' ............................................ passed
+And call read('test.feature') ............................................. passed</system-out>
   </testcase>
 </testsuite>

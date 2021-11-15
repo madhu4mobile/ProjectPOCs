@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 
 
-public class anotherRunner {
+public class tempRunner {
 //    @BeforeClass
 //    public static void beforeClass() throws Exception {
 //        TestBase.beforeClass();

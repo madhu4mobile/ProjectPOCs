@@ -1,22 +1,9 @@
-//
-//buildscript {
-//    repositories {
-//        mavenCentral()
-//    }
-//    dependencies {
-//        classpath "com.github.spacanowski:variable-managment-plugin:1.0"
-//    }
-//}
-//apply plugin: "pl.spc.variable.management"
-//
-//project.ext {
-//    //variablesManagementUrl = 'http://<address>/<path>/<versions_json_file>'
-//}
-
-
 
 plugins {
     id 'java'
+    id 'eclipse'
+    id 'idea'
+//    id 'org.springframework.boot'
 }
 
 group 'org.automation.tools'
@@ -24,25 +11,29 @@ version '1.0-SNAPSHOT'
 
 project.ext {
     myprop = "a"
-    karateVersion = "0.9.6"
+    springBootVersion = '1.5.3.RELEASE'
+    springVersion = '4.3.8.RELEASE'
+    gradleVersionProperty = '4.1'
+    karateVersion = '0.9.6'
+    masterThoughtVersion = '3.8.0'
+    activeMqVersion = '5.15.2'
 }
 
 repositories {
-    mavenCentral()
     mavenLocal()
+    mavenCentral()
+    maven { url 'https://plugins.gradle.org/m2/' }
 }
 
-apply plugin: "java"
 
 //def karateVersion = "0.9.6"
 
 dependencies {
-    testCompile group: 'com.intuit.karate', name:'karate-apache', version: "${karateVersion}"
-    testCompile group: 'com.intuit.karate', name:'karate-junit5', version: "${karateVersion}"
+    testImplementation group: 'com.intuit.karate', name:'karate-apache', version: "${karateVersion}"
+    testImplementation group: 'com.intuit.karate', name:'karate-junit5', version: "${karateVersion}"
 //    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-//    test//Compile 'com.intuit.karate:karate-junit5:"${karateVersion}"'
-//    testCompile 'com.intuit.karate:karate-apache:"${karateVersion}"'
+
 }
 
 sourceSets {
