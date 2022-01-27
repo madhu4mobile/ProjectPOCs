@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| 1 |" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-05-24T16:28:34" hostname="SSHROFFPF0TAYW8" time="0.637">
+  <properties/>
+  <testcase name="Given url 'http://localhost:3000'" classname="| 1 |" time="0.0"/>
+  <testcase name="Given path '/posts/1'" classname="| 1 |" time="0.0"/>
+  <testcase name="When method get" classname="| 1 |" time="0.0"/>
+  <testcase name="Then status 200" classname="| 1 |" time="0.001"/>
+  <testcase name="And match $ ==  {&quot;id&quot;: '#notnull',&quot;title&quot;: '#notnull',&quot;author&quot;: '#notnull'}" classname="| 1 |" time="0.001"/>
+  <testcase name="classMethod" classname="| 1 |" time="1.122"/>
+  <system-out><![CDATA[21:58:34.583 [Test worker] ERROR com.intuit.karate - could not find or read file: karate-config.js, prefix: CLASSPATH
+21:58:34.586 [Test worker] WARN com.intuit.karate - skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
