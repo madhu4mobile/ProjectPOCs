@@ -1,81 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head>
-<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-<meta charset="utf-8">
-    
-<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    
-<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
-    
-<link href="res/karate-report.css" rel="stylesheet" type="text/css">
-    
-<link href="favicon.ico" rel="shortcut icon">
-    
-<script src="res/jquery.min.js" type="text/javascript"></script>
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
     <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
     <script src="res/bootstrap.min.js" type="text/javascript"></script>
     <script src="res/karate-report.js" type="text/javascript"></script>
     
-<title>Karate Summary Report</title>
-  
-</head>
-  
-<body>
-    
-<div id="root-container">
-      
-<div id="leftnav">
-        
-<div class="nav-logo">
+        <title>Karate Summary Report</title>
           
-<a href="karate-summary.html">
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
             <img alt="Karate" src="res/karate-logo.svg">
           </a>
           
-<div class="nav-count">
-            
-<div class="bg-success" id="nav-pass">2</div>
-            
-<div class="bg-danger" id="nav-fail">0</div>
-          
-</div>
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">2</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">4</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Features</div>
+                         
         
-</div>
-        
-<div id="nav-type">Features</div>         
-        
-<div id="nav-date">2021-02-03 04:33:04 PM</div>        
+                <div id="nav-date">2021-11-17 10:39:43 PM</div>
+                        
       
-<div class="nav-container"></div>
-</div>
-      
-<div id="content">
-      
-<div class="page-heading alert alert-primary">
-<a href="karate-tags.html">Tags</a>
-</div>
-<table class="features-table table table-sm">
-<thead>
-<tr>
-<th>Feature</th><th>Title</th><th class="num">Passed</th><th class="num">Failed</th><th class="num">Scenarios</th><th class="num">Time (ms)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="passed-lt">
-<td><a href="first.another.html">first/another.feature</a></td><td>another feature to add to the directory</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">44</td>
-</tr>
-<tr class="passed-lt">
-<td><a href="first.test.html">first/test.feature</a></td><td>Test all APIs in the following site, https://jsonplaceholder.typicode.com | Intentionn is to test  APIs with different entpoint</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">3559</td>
-</tr>
-</tbody>
-</table>
-</div>
-    
-</div>   
+                <div class="nav-container">
+                    <div class="nav-item failed">
+                        <a href="E2E.individual.01_upload_TestFile.html">[01_upload_TestFile] To upload a test file and then validate the upload</a>
+                    </div>
+                    <div class="nav-item failed">
+                        <a href="temp.03_inTemp.html">[03_inTemp] to call other features</a>
+                    </div>
+                    <div class="nav-item failed">
+                        <a href="temp.04_testUpload.html">[04_testUpload] to test file upload</a>
+                    </div>
+                    <div class="nav-item failed">
+                        <a href="temp.05_reportIssue.html">[05_reportIssue] to report issue with multipart read</a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-tags.html">Tags</a>
+                </div>
+                <table class="features-table table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Feature</th><th>Title</th><th class="num">Passed</th><th class="num">Failed</th><th class="num">Scenarios</th><th class="num">Time (ms)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="failed-lt">
+                            <td><a href="E2E.individual.01_upload_TestFile.html">E2E/individual/01_upload_TestFile.feature</a></td><td>To upload a test file and then validate the upload | Background :&#13;
+  * def CalledJavaFn = Java.type('E2E.common.utilities.JavaFunctionUtils')&#13;
+  * def MMdd = CalledJavaFn.getDateInCustomFormat("MMdd")&#13;
+  * def RndNum = CalledJavaFn.randomDigitsBetweenMinMax(100,999)&#13;
+  * def fileName = "AutoTest_"+MMdd+"_"+RndNum&#13;
+  * print "File Name :	---&gt; "+fileName&#13;
+  * def genFile = Java.type('E2E.common.utilities.CaptureTestFileCreator')&#13;
+  * genFile.createFile(10, fileName )&#13;
+  * def myFIleWithPath = 'src/test/java/E2E/common/data/'+fileName&#13;
+  * print myFIleWithPath</td><td class="num">0</td><td class="num">1</td><td class="num">1</td><td class="num">25</td>
+                        </tr>
+                        <tr class="passed-lt">
+                            <td><a href="first.01_test.html">first/01_test.feature</a></td><td>Test all APIs in the following site, https://jsonplaceholder.typicode.com | Intentionn is to test  APIs with different entpoint</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">989</td>
+                        </tr>
+                        <tr class="passed-lt">
+                            <td><a href="first.02_another.html">first/02_another.feature</a></td><td>another feature to add to the directory</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">993</td>
+                        </tr>
+                        <tr class="failed-lt">
+                            <td><a href="temp.03_inTemp.html">temp/03_inTemp.feature</a></td><td>to call other features</td><td class="num">2</td><td class="num">1</td><td class="num">3</td><td class="num">1020</td>
+                        </tr>
+                        <tr class="failed-lt">
+                            <td><a href="temp.04_testUpload.html">temp/04_testUpload.feature</a></td><td>to test file upload</td><td class="num">2</td><td class="num">1</td><td class="num">3</td><td class="num">988</td>
+                        </tr>
+                        <tr class="failed-lt">
+                            <td><a href="temp.05_reportIssue.html">temp/05_reportIssue.feature</a></td><td>to report issue with multipart read</td><td class="num">0</td><td class="num">1</td><td class="num">1</td><td class="num">11</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                
+        </div>
+           
   
-</body>
-
+    </body>
+    
 </html>

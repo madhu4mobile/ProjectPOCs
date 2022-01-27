@@ -1,11 +1,11 @@
-<testsuite failures="1" name="src/test/java/temp/04_testUpload.feature" skipped="0" tests="3" time="1.145086">
-  <testcase classname="src.test.java.temp.04_testUpload" name="lets call a file" time="0.136332">
+<testsuite failures="1" name="src/test/java/temp/04_testUpload.feature" skipped="0" tests="3" time="0.921486">
+  <testcase classname="src.test.java.temp.04_testUpload" name="lets call a file" time="0.108684">
     <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
 * def myFile = "../first/03_myJson.json" .................................. passed
 And def myContent = read(myFile) .......................................... passed
 * print myContent ......................................................... passed</system-out>
   </testcase>
-  <testcase classname="src.test.java.temp.04_testUpload" name="lets try calling a feature" time="1.000305">
+  <testcase classname="src.test.java.temp.04_testUpload" name="lets try calling a feature" time="0.785474">
     <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
 * def myFile = "../first/03_myJson.json" .................................. passed
 And def myContent = read(myFile) .......................................... passed
@@ -14,8 +14,8 @@ And def myContent = read(myFile) .......................................... pass
 And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
 * print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed</system-out>
   </testcase>
-  <testcase classname="src.test.java.temp.04_testUpload" name="lets try reading a file for multipart upload" time="0.008448">
-    <failure message="04_testUpload.feature:27 - could not find or read file: myVar">* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+  <testcase classname="src.test.java.temp.04_testUpload" name="lets try reading a file for multipart upload" time="0.027327">
+    <failure message="04_testUpload.feature:27 - could not find or read file: Testfile 1113 504">* print "In temp folder and calling  03_myJson.json from /first " ......... passed
 * def myFile = "../first/03_myJson.json" .................................. passed
 And def myContent = read(myFile) .......................................... passed
 * print myContent ......................................................... passed
@@ -23,13 +23,13 @@ And def myContent = read(myFile) .......................................... pass
 And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
 * print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed
 Given url 'https://www.4shared.com/' ...................................... passed
-* string myVar = "\'"+"../E2E/common/data/"+"AutoTestFile_1113_413"+".dat"+"\'" . passed
-* print myVar ............................................................. passed
-And multipart file myFile = { read: myVar, filename: 'my-Test.dat', contentType: 'text/plain' } . failed
+And def myVar1 = read(karate.properties['user.dir'] + "/src/test/java/E2E/common/data/"+"AutoTestFile_1113_504"+".dat") . passed
+* print myVar1 ............................................................ passed
+And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' } . failed
 
 Stack Trace:
-com.intuit.karate.exception.KarateException: 04_testUpload.feature:27 - could not find or read file: myVar&#13;
-	at ✽.And multipart file myFile = { read: myVar, filename: 'my-Test.dat', contentType: 'text/plain' } (04_testUpload.feature:27)&#13;
+com.intuit.karate.exception.KarateException: 04_testUpload.feature:27 - could not find or read file: Testfile 1113 504&#13;
+	at ✽.And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' } (04_testUpload.feature:27)&#13;
 
 And multipart field message = 'hello world' ............................... skipped
 When method post .......................................................... skipped

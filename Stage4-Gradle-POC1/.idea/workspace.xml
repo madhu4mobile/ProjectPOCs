@@ -96,7 +96,7 @@
       <recent name="D:\OnGoing\ProjectPOCs\Stage4-Gradle-POC1\src\test\java\E2E\common\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 04_testUpload">
+  <component name="RunManager" selected="Gradle.tempRunner">
     <configuration name="Feature: 01_test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/first/01_test.feature" />
@@ -153,14 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: another" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: 05_reportIssue" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/first/another.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/temp/05_reportIssue.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="org.automation.tools.test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: another" />
+      <option name="SUGGESTED_NAME" value="Feature: 05_reportIssue" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -172,32 +171,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: inTemp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/temp/inTemp.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="org.automation.tools.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: inTemp" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="tempRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;temp.tempRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.tempRunner" />
         <item itemvalue="Cucumber Java.Feature: 04_testUpload" />
+        <item itemvalue="Cucumber Java.Feature: 05_reportIssue" />
         <item itemvalue="Cucumber Java.Feature: 03_inTemp" />
         <item itemvalue="Cucumber Java.Feature: 01_test" />
-        <item itemvalue="Cucumber Java.Feature: inTemp" />
-        <item itemvalue="Cucumber Java.Feature: another" />
       </list>
     </recent_temporary>
   </component>

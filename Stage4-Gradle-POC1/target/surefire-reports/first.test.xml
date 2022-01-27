@@ -1,9 +1,0 @@
-<testsuite failures="0" name="first/test.feature" skipped="0" tests="1" time="3.985944">
-  <testcase classname="first.test" name="Make the Primary call to check posts status" time="3.985944">
-    <system-out>* url 'https://jsonplaceholder.typicode.com/' ............................. passed
-Given path 'posts' ........................................................ passed
-When method GET ........................................................... passed
-Then status 200 ........................................................... passed
-Then print "Title of the post with Id : 1 is --&gt; ",  response[0].title .... passed</system-out>
-  </testcase>
-</testsuite>

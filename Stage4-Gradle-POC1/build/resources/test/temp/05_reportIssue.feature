@@ -4,6 +4,8 @@ Feature: to report issue with multipart read
     Given url 'https://www.4shared.com/'
     #* string myVar = "\'"+"/src/test/java/E2E/common/data/"+"AutoTestFile_1113_413"+".dat"+"\'"
       And def myVar1 = read(karate.properties['user.dir'] + "/src/test/java/E2E/common/data/"+"AutoTestFile_1113_413"+".dat")
+
+    ##### all trials as below failed
       #And def BodyOfRequest = read('/src/test/java/first/03_myJson.json')
       #And def BodyOfRequest = call read(karate.properties['user.dir'] + '/src/test/java/temp/01_test.feature')
       #And def BodyOfRequest = call read('/src/test/java/first/01_test.feature')
@@ -11,6 +13,8 @@ Feature: to report issue with multipart read
 
     * print myVar1
     #And multipart file myFile = { read: '../E2E/common/data/AutoTestFile_1113_413.dat', filename: 'my-Test.dat', contentType: 'text/plain' }
+
+    ##========> use variables as #(myVar1)
     And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' }
     And multipart field message = 'hello world'
     When method post

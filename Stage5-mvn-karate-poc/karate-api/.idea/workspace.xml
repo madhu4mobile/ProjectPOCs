@@ -5,191 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc4f35a-9614-44a0-a99a-4d17d968718b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/src/test/java/demo/reqres/ReqResLevelRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/src/test/java/demo/reqres/users.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/src/test/karate-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/src/test/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-progress-json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-summary-json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-tags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/karate-timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/res/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/res/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/res/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/res/jquery.tablesorter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/res/karate-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/res/karate-report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/src.test.java.demo.reqres.users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/target/karate-reports/src.test.java.demo.reqres.users.karate-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/all_sessions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/assertions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/assertions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/gatling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/global_stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/highstock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/moment-2.24.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/stats.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/js/unpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/req_get--api-users--99661.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/req_get--api-users-facf1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/simulation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/arrow_down_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/arrow_right_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/cible.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/little_arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/logo-gatling.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/sortable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/sorted-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/sorted-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/stat-fleche-bas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/stat-fond.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/stat-l-roue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/stat-l-temps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20210928234942612/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/all_sessions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/assertions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/assertions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/gatling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/global_stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/highstock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/moment-2.24.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/stats.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/js/unpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/req_get--api-users--99661.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/req_get--api-users-facf1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/simulation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/arrow_down_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/arrow_right_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/cible.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/little_arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/logo-gatling.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/sortable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/sorted-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/sorted-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/stat-fleche-bas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/stat-fond.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/stat-l-roue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/stat-l-temps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001231605107/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/all_sessions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/assertions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/assertions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/gatling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/global_stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/highstock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/moment-2.24.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/stats.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/js/unpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/req_get--api-users--99661.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/req_get--api-users-facf1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/req_get--users-1-f32d1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/req_get--users-2ea1c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/req_post--api-regis-b001d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/req_post--users-92ea9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/simulation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/arrow_down_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/arrow_right_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/cible.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/little_arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/logo-gatling.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/sortable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/sorted-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/sorted-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/stat-fleche-bas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/stat-fond.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/stat-l-roue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/stat-l-temps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211001233610080/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/all_sessions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/assertions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/assertions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/gatling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/global_stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/highstock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/moment-2.24.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/js/unpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/req_get--api-users--99661.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/req_get--api-users-facf1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/req_get--users-1-f32d1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/req_get--users-2ea1c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/req_post--api-regis-b001d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/req_post--users-92ea9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/simulation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/arrow_down_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/arrow_right_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/cible.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/little_arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/logo-gatling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/sortable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/sorted-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/sorted-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/stat-fleche-bas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/stat-fond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/stat-l-roue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/stat-l-temps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gatling/testuserssimulation-20211004020702444/style/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/inc_compile.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/inc_compile.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/examples.externalAPIs.reqResTestUser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/examples.externalAPIs.reqResTestUser.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-progress-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1633129957795/res/karate-report.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/examples/ExamplesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/ExamplesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/TestUsersSimulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/TestUsersSimulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/TestUsersSimulation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/TestUsersSimulation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/reqresRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/externalAPIs/reqresRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +98,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Stage7-Gradle-Karate-gatling/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -324,17 +189,6 @@
       <option name="PACKAGE_NAME" value="examples.externalAPIs" />
       <option name="MAIN_CLASS_NAME" value="examples.externalAPIs.reqresRunner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

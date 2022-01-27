@@ -9506,3 +9506,74 @@ stack trace: com.intuit.karate.Resource.getStream(Resource.java:135)
     "content":"Testfile 1113 413"
 }
 08:22:06.364 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/05_reportIssue.feature
+08:24:49.944 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:24:50.239 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:24:50.348 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:24:50.360 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:24:50.374 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:24:51.132 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:24:51.153 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:24:51.167 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+08:24:51.170 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate.FileUtils - feature relative path resolution failed: Illegal char <> at index 1: {
+    "content":"Testfile 1113 413"
+}
+08:24:51.256 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+08:29:43.458 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+08:29:43.742 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+08:29:43.849 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+08:29:43.861 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+08:29:43.875 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+08:29:44.638 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:29:44.644 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+08:29:44.669 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] (..stream..)
+08:29:44.841 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/temp/04_testUpload.feature
+22:39:41.916 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:39:42.526 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:39:42.526 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] In first folder and ran another.feature
+22:39:42.526 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:39:42.526 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.541 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] This is given
+22:39:42.541 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] when this happens
+22:39:42.541 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] then this happens
+22:39:42.573 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "firstName": "James",
+  "lastName": "White",
+  "username": "jamesWhite",
+  "email": "james.white@user.com"
+}
+
+22:39:42.573 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] classpath:first/02_another.feature
+22:39:42.573 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.588 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:39:42.604 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:39:42.604 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.620 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.635 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] (..stream..)
+22:39:42.760 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 6: classpath:E2E/individual/01_upload_TestFile.feature
+22:39:42.791 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] (..stream..)
+22:39:42.791 [ForkJoinPool-1-worker-11] ERROR com.intuit.karate.FileUtils - feature relative path resolution failed: Illegal char <> at index 1: {
+    "content":"Testfile 1113 413"
+}
+22:39:42.823 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 6 of 6: classpath:temp/05_reportIssue.feature
+22:39:43.511 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.511 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.511 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.511 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is -->  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.527 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.527 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----> sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.543 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:first/01_test.feature
+22:39:43.543 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 6: classpath:first/02_another.feature
+22:39:43.543 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<fail>> feature 5 of 6: classpath:temp/04_testUpload.feature
+22:39:43.558 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:temp/03_inTemp.feature

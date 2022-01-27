@@ -1,0 +1,15 @@
+group 'org.shroff'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'com.intuit.karate', name: 'karate-apache', version: '0.7.0.2'
+    testCompile group: 'com.intuit.karate', name: 'karate-junit4', version: '0.7.0.2'
+}
