@@ -1,0 +1,39 @@
+<testsuite failures="1" name="temp/04_testUpload.feature" skipped="0" tests="3" time="0.988307">
+  <testcase classname="temp.04_testUpload" name="lets call a file" time="0.055775">
+    <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+* def myFile = "../first/03_myJson.json" .................................. passed
+And def myContent = read(myFile) .......................................... passed
+* print myContent ......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="temp.04_testUpload" name="lets try calling a feature" time="0.914928">
+    <system-out>* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+* def myFile = "../first/03_myJson.json" .................................. passed
+And def myContent = read(myFile) .......................................... passed
+* print myContent ......................................................... passed
+* print "In temp folder and calling  01_test.feature from /first " ........ passed
+And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
+* print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed</system-out>
+  </testcase>
+  <testcase classname="temp.04_testUpload" name="lets try reading a file for multipart upload" time="0.017604">
+    <failure message="04_testUpload.feature:27 - could not find or read file: Testfile 1113 504">* print "In temp folder and calling  03_myJson.json from /first " ......... passed
+* def myFile = "../first/03_myJson.json" .................................. passed
+And def myContent = read(myFile) .......................................... passed
+* print myContent ......................................................... passed
+* print "In temp folder and calling  01_test.feature from /first " ........ passed
+And def BodyOfRequest = call read('../first/01_test.feature') ............. passed
+* print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . passed
+Given url 'https://www.4shared.com/' ...................................... passed
+And def myVar1 = read(karate.properties['user.dir'] + "/src/test/java/E2E/common/data/"+"AutoTestFile_1113_504"+".dat") . passed
+* print myVar1 ............................................................ passed
+And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' } . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 04_testUpload.feature:27 - could not find or read file: Testfile 1113 504&#13;
+	at ✽.And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' } (04_testUpload.feature:27)&#13;
+
+When method post .......................................................... skipped
+Then status 200 ........................................................... skipped
+And def BodyOfRequest = call read('../first/01_test.feature') ............. skipped
+* print "BodyOfRequest title from first request  -----&gt;",BodyOfRequest.response[0].title . skipped</failure>
+  </testcase>
+</testsuite>

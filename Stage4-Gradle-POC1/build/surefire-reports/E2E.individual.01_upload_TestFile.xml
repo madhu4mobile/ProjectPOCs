@@ -1,0 +1,23 @@
+<testsuite failures="1" name="E2E/individual/01_upload_TestFile.feature" skipped="0" tests="1" time="0.02495">
+  <testcase classname="E2E.individual.01_upload_TestFile" name="CHK-3092-GENERATE-FILE-UPLOAO , LIST and validate response for file name" time="0.02495">
+    <failure message="01_upload_TestFile.feature:21 - could not find or read file: file: &quot;src/test/java/E2E/common/data/&quot;+fileName+&quot;. dat&quot;">Given url 'https://ftscat2a.mfts.jpmchase.net' ............................ passed
+And path '/api/v1.4/files/CDS01//' ........................................ passed
+And param showdots = 'false' .............................................. passed
+And param transferMode = 'BINARY' ......................................... passed
+And multipart file myFile = { read: 'file: "src/test/java/E2E/common/data/"+fileName+". dat" ' } . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 01_upload_TestFile.feature:21 - could not find or read file: file: "src/test/java/E2E/common/data/"+fileName+". dat"&#13;
+	at ✽.And multipart file myFile = { read: 'file: "src/test/java/E2E/common/data/"+fileName+". dat" ' } (01_upload_TestFile.feature:21)&#13;
+
+* header Authorization = call read('basic-auth.js') { username: 'xxxxx', password: 'yyyyy'} . skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print "=============== After upload ================================" . skipped
+Given url CaptureApiUrl ................................................... skipped
+And path 'list' ........................................................... skipped
+When method get ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response[0]..key contains "#regex (?i).*" + fileName + ".*" ..... skipped</failure>
+  </testcase>
+</testsuite>

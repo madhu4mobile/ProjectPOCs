@@ -1,0 +1,19 @@
+<testsuite failures="1" name="temp/05_reportIssue.feature" skipped="0" tests="1" time="0.011092">
+  <testcase classname="temp.05_reportIssue" name="lets try reading a file for multipart upload" time="0.011092">
+    <failure message="05_reportIssue.feature:18 - could not find or read file: {&#13;&#10;    &quot;content&quot;:&quot;Testfile 1113 413&quot;&#13;&#10;}">Given url 'https://www.4shared.com/' ...................................... passed
+And def myVar1 = read(karate.properties['user.dir'] + "/src/test/java/E2E/common/data/"+"AutoTestFile_1113_413"+".dat") . passed
+* print myVar1 ............................................................ passed
+And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' } . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: 05_reportIssue.feature:18 - could not find or read file: {&#13;
+    "content":"Testfile 1113 413"&#13;
+}&#13;
+	at ✽.And multipart file myFile = { read: #(myVar1), filename: 'my-Test.dat', contentType: 'text/plain' } (05_reportIssue.feature:18)&#13;
+
+And multipart field message = 'hello world' ............................... skipped
+When method post .......................................................... skipped
+Then status 200 ........................................................... skipped
+And def BodyOfRequest = call read('../first/01_test.feature') ............. skipped</failure>
+  </testcase>
+</testsuite>

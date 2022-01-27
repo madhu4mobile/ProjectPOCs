@@ -1,0 +1,9 @@
+<testsuite failures="0" name="first/02_another.feature" skipped="0" tests="1" time="0.992683">
+  <testcase classname="first.02_another" name="anther feature trying to execute" time="0.992683">
+    <system-out>* print "In first folder and ran another.feature" ......................... passed
+Given print 'This is given' ............................................... passed
+When print 'when this happens' ............................................ passed
+Then print 'then this happens' ............................................ passed
+And call read('01_test.feature') .......................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - tempRunner</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>tempRunner</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/temp.html">temp</a> &gt; tempRunner</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.174s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testParallel()</td>
+<td class="success">1.174s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>22:39:41.916 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:39:42.526 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:39:42.526 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] In first folder and ran another.feature
+22:39:42.526 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] In temp folder and calling  03_myJson.json from /first 
+22:39:42.526 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.541 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] This is given
+22:39:42.541 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] when this happens
+22:39:42.541 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] then this happens
+22:39:42.573 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  &quot;firstName&quot;: &quot;James&quot;,
+  &quot;lastName&quot;: &quot;White&quot;,
+  &quot;username&quot;: &quot;jamesWhite&quot;,
+  &quot;email&quot;: &quot;james.white@user.com&quot;
+}
+
+22:39:42.573 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] classpath:first/02_another.feature
+22:39:42.573 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.588 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:39:42.604 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] In temp folder and calling  01_test.feature from /first 
+22:39:42.604 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.620 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] In first folder and ran 01_test.feature
+22:39:42.635 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] (..stream..)
+22:39:42.760 [pool-1-thread-1] INFO  com.intuit.karate.Runner - &lt;&lt;fail&gt;&gt; feature 1 of 6: classpath:E2E/individual/01_upload_TestFile.feature
+---------------------------------------------------------
+feature: classpath:E2E/individual/01_upload_TestFile.feature
+report: build\surefire-reports\E2E.individual.01_upload_TestFile.json
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.0250
+---------------------------------------------------------
+22:39:42.791 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] (..stream..)
+22:39:42.791 [ForkJoinPool-1-worker-11] ERROR com.intuit.karate.FileUtils - feature relative path resolution failed: Illegal char &lt;&gt; at index 1: {
+    &quot;content&quot;:&quot;Testfile 1113 413&quot;
+}
+22:39:42.823 [pool-1-thread-1] INFO  com.intuit.karate.Runner - &lt;&lt;fail&gt;&gt; feature 6 of 6: classpath:temp/05_reportIssue.feature
+---------------------------------------------------------
+feature: classpath:temp/05_reportIssue.feature
+report: build\surefire-reports\temp.05_reportIssue.json
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.0111
+---------------------------------------------------------
+22:39:43.511 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is --&gt;  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.511 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is --&gt;  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.511 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is --&gt;  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.511 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] Title of the post with Id : 1 is --&gt;  sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.527 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----&gt; sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.527 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] BodyOfRequest title from first request  -----&gt; sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+22:39:43.543 [pool-1-thread-2] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 2 of 6: classpath:first/01_test.feature
+---------------------------------------------------------
+feature: classpath:first/01_test.feature
+report: build\surefire-reports\first.01_test.json
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.9893
+---------------------------------------------------------
+22:39:43.543 [pool-1-thread-3] INFO  com.intuit.karate.Runner - &lt;&lt;pass&gt;&gt; feature 3 of 6: classpath:first/02_another.feature
+---------------------------------------------------------
+feature: classpath:first/02_another.feature
+report: build\surefire-reports\first.02_another.json
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.9927
+---------------------------------------------------------
+22:39:43.543 [pool-1-thread-5] INFO  com.intuit.karate.Runner - &lt;&lt;fail&gt;&gt; feature 5 of 6: classpath:temp/04_testUpload.feature
+---------------------------------------------------------
+feature: classpath:temp/04_testUpload.feature
+report: build\surefire-reports\temp.04_testUpload.json
+scenarios:  3 | passed:  2 | failed:  1 | time: 0.9883
+---------------------------------------------------------
+22:39:43.558 [pool-1-thread-4] INFO  com.intuit.karate.Runner - &lt;&lt;fail&gt;&gt; feature 4 of 6: classpath:temp/03_inTemp.feature
+---------------------------------------------------------
+feature: classpath:temp/03_inTemp.feature
+report: build\surefire-reports\temp.03_inTemp.json
+scenarios:  3 | passed:  2 | failed:  1 | time: 1.0195
+---------------------------------------------------------
+
+HTML report: (paste into browser to view) | Karate version: 0.9.6
+file:/D:/OnGoing/ProjectPOCs/Stage4-Gradle-POC1/build/surefire-reports/karate-summary.html
+===================================================================
+
+Karate version: 0.9.6
+======================================================
+elapsed:   2.30 | threads:    5 | thread time: 4.03 
+features:     6 | ignored:    0 | efficiency: 0.35
+scenarios:   10 | passed:     6 | failed: 4
+======================================================
+failed features:
+E2E.individual.01_upload_TestFile: 01_upload_TestFile.feature:21 - could not find or read file: file: &quot;src/test/java/E2E/common/data/&quot;+fileName+&quot;. dat&quot;
+temp.03_inTemp: 03_inTemp.feature:25 - could not find or read file: ../data/AutoTestFile_1113_413.dat
+temp.04_testUpload: 04_testUpload.feature:27 - could not find or read file: Testfile 1113 504
+temp.05_reportIssue: 05_reportIssue.feature:18 - could not find or read file: {
+    &quot;content&quot;:&quot;Testfile 1113 413&quot;
+}
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Warning: Nashorn engine is planned to be removed from a future JDK release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at Nov 17, 2021, 10:39:43 PM</p>
+</div>
+</div>
+</body>
+</html>
